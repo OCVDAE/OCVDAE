@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ontorat_0000002.owl" uri="Ontorat_out-OAE-Chinese.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ocmae/PATO_import.owl" uri="PATO_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ocmae/NDFRT_import.owl" uri="NDFRT_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/ocvdae/OAE_import.owl" uri="OAE_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl" uri="BFO_import.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/bfo.owl" uri="BFO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="duplicate:http://purl.obolibrary.org/obo/ocvdae.owl" uri="ocvdae-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="duplicate:http://purl.obolibrary.org/obo/ocvdae.owl" uri="ocvdae.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ocvdae/DrON_import.owl." uri="DrON_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ocvdae/OAE_import.owl" uri="OAE_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ocvdae/PATO_import.owl" uri="PATO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ocvdae/ndfrt_import.owl" uri="NDFRT_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat_out2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="http://purl.obolibrary.org/obo/ontorat_0000002.owl" uri="Ontorat_out-OAE-Chinese.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1481675953324" name="shadowed:http://purl.obolibrary.org/obo/ontorat_0000001.owl" uri="Ontorat/Ontorat_out.owl"/>
+    </group>
+</catalog>

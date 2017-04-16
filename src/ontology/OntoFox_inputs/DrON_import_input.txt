@@ -1,0 +1,184 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocvdae/DrON_import.owl.
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00062826  #Lidocaine Hydrochloride Aerosol
+http://purl.obolibrary.org/obo/DRON_00062738 #Lidocaine Hydrochloride Mucilage
+http://purl.obolibrary.org/obo/DRON_00061851  #HYZAAR(Losartan Potassiumand Hydrochlorothiazide Tablets)
+http://purl.obolibrary.org/obo/DRON_00059079 #Enalapril Maleate and Hydrochlorothiazide Tablets
+http://purl.obolibrary.org/obo/DRON_00057673 #Diltiazem Hydrochloride Controlled-Release Capsules
+http://purl.obolibrary.org/obo/DRON_00039104 #Compound Isosorbide Mononitrate Sustained-Release Tablets
+http://purl.obolibrary.org/obo/DRON_00034602 #Isosorbide Mononitrate Sustaind-release Capsules?£¨¢ñ£©
+http://purl.obolibrary.org/obo/DRON_00034602 #Isosorbide Mononitrate Sustaind-release Capsules?£¨¢ò£©
+http://purl.obolibrary.org/obo/DRON_00034602 #IsosorbideMononitrateSustained-releaseCapsules(¢ó)
+http://purl.obolibrary.org/obo/DRON_00034602 #Isosorbide Mononitrate Sustained-release Capsules(¢ô)
+http://purl.obolibrary.org/obo/DRON_00027501 #Fenofibrate Dispersible Tablets
+http://purl.obolibrary.org/obo/DRON_00025602 #Clonidine Controlled-release Patches
+http://purl.obolibrary.org/obo/DRON_00025483 #Amrinone For Injection
+http://purl.obolibrary.org/obo/DRON_00025483 #Amrinone Injection
+http://purl.obolibrary.org/obo/DRON_00023297 #Compound Reserpine Tablets
+http://purl.obolibrary.org/obo/DRON_00022685 #Nifedipine Sustained-release Tablets
+http://purl.obolibrary.org/obo/DRON_00022685 #Nifedipine Sustained-release Tablets£¨¢ñ£©
+http://purl.obolibrary.org/obo/DRON_00022685 #Nifedipine Sustained-release Tablets£¨¢ò£©
+http://purl.obolibrary.org/obo/DRON_00022685 #Nifedipine Controlled-release Tablets
+http://purl.obolibrary.org/obo/DRON_00022564 #Minoxidil Tincture
+http://purl.obolibrary.org/obo/DRON_00021696 #Dispersible Dipyridamole Tablets
+http://purl.obolibrary.org/obo/DRON_00021117 #Compound Captopril Tablets
+http://purl.obolibrary.org/obo/DRON_00016359 #Extractof Ginkgo Biloba Leaves Injection
+http://purl.obolibrary.org/obo/DRON_00011781 #Vinpocetine Injection
+http://purl.obolibrary.org/obo/DRON_00061835 #Ibutilide Fumarate Injection
+http://purl.obolibrary.org/obo/DRON_00032077 #Simvastatin Dispersible Tablets
+http://purl.obolibrary.org/obo/DRON_00031584 #Valsartan and Amlodipine Tablets(I)
+http://purl.obolibrary.org/obo/DRON_00029671 #Potassium Aspartate and Magnesium Aspartate Injection
+http://purl.obolibrary.org/obo/DRON_00029671 #Potassium Aspartate and Magnesium Aspartate for Injection
+http://purl.obolibrary.org/obo/DRON_00029428 #Nicergoline Capsules
+http://purl.obolibrary.org/obo/DRON_00029063 #Indapamide Capsules
+http://purl.obolibrary.org/obo/DRON_00028857 #Fenofibrate Sustained Release Capsules
+http://purl.obolibrary.org/obo/DRON_00028837 #Felodipine Sustaind-release Tablets
+http://purl.obolibrary.org/obo/DRON_00028745 #Perenan(Ergoloid Mesylate Sustained Release Capsules)
+http://purl.obolibrary.org/obo/DRON_00027795 #Perindopril and Indapamide Tablets(BIPRELforte)
+http://purl.obolibrary.org/obo/DRON_00027513 #Isosorbide Dinitrate Injection
+http://purl.obolibrary.org/obo/DRON_00027511 #Isosorbide  Dinitrate Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00027500 #Fenofibrate Tablets
+http://purl.obolibrary.org/obo/DRON_00027499 #Fenofibrate Capsules
+http://purl.obolibrary.org/obo/DRON_00027056 #Telmisartanand Hydrochlorothiazide Tablets
+http://purl.obolibrary.org/obo/DRON_00026800 #Potassium Magnesium Aspartate Tablets Panangin
+http://purl.obolibrary.org/obo/DRON_00026706 #Ezetrol(Ezetimibe Tablets)
+http://purl.obolibrary.org/obo/DRON_00026561 #Minoxidil Gel
+http://purl.obolibrary.org/obo/DRON_00025780 #Milrinone Injection
+http://purl.obolibrary.org/obo/DRON_00025761 #Nitroglycerin Injection
+http://purl.obolibrary.org/obo/DRON_00025499 #Dipyridamole Injection
+http://purl.obolibrary.org/obo/DRON_00025081 #Acipimox Capsules
+http://purl.obolibrary.org/obo/DRON_00024458 #Pantethine Capsules
+http://purl.obolibrary.org/obo/DRON_00024444 #Nimodipine Injection
+http://purl.obolibrary.org/obo/DRON_00024444 #Nimodipine for Injection
+http://purl.obolibrary.org/obo/DRON_00023840 #Adenosine Injection
+http://purl.obolibrary.org/obo/DRON_00023756 #Vinpocetine  Tablets
+http://purl.obolibrary.org/obo/DRON_00023508 #Telmisartan Tablets
+http://purl.obolibrary.org/obo/DRON_00023396 #Simvastatin Tablets
+http://purl.obolibrary.org/obo/DRON_00023297 #Reserpine Tablets
+http://purl.obolibrary.org/obo/DRON_00023296 #Reserpine Injection
+http://purl.obolibrary.org/obo/DRON_00023151 #Probucol Tablets
+http://purl.obolibrary.org/obo/DRON_00022891 #ACERTIL(Perindopril Tablets)
+http://purl.obolibrary.org/obo/DRON_00022712 #Nitrendipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022707 #Nisoldipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022703 #Nimodipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022701 #Nimodipine Capsules
+http://purl.obolibrary.org/obo/DRON_00022685 #Extended Release Nifedipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022684 #Nifedipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022683 #Nifedipine Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00022682 #Nifedipine Capsules
+http://purl.obolibrary.org/obo/DRON_00022678 #Nicergoline Tablets
+http://purl.obolibrary.org/obo/DRON_00022564 #Minoxidil Topical Solution
+http://purl.obolibrary.org/obo/DRON_00022223 #Lacidipine Tablets
+http://purl.obolibrary.org/obo/DRON_00022149 #NATRILIXSR(Indapamide Sustained Release Tablets)
+http://purl.obolibrary.org/obo/DRON_00021788 #schelium(Ergoloid Mesylates Sustained-Release Tablets)
+http://purl.obolibrary.org/obo/DRON_00021677 #Dipyridamole tablets
+http://purl.obolibrary.org/obo/DRON_00021676 #Dipyridamole Sustaind-release Capsule
+http://purl.obolibrary.org/obo/DRON_00021612 #Digaoxin Tablets
+http://purl.obolibrary.org/obo/DRON_00021610 #Digoxin Injection
+http://purl.obolibrary.org/obo/DRON_00021506 #Deslanoside Injection
+http://purl.obolibrary.org/obo/DRON_00021457 #Cyclandelate Capsules
+http://purl.obolibrary.org/obo/DRON_00021340 #Cinnarizine Tablets
+http://purl.obolibrary.org/obo/DRON_00021338 #Cinnarizine Capsules
+http://purl.obolibrary.org/obo/DRON_00021117 #Captopril Tablets
+http://purl.obolibrary.org/obo/DRON_00020638 #Irbesartanand Hydrochlorothiazide tablets
+http://purl.obolibrary.org/obo/DRON_00020637 #Irbesartan Tablets
+http://purl.obolibrary.org/obo/DRON_00020622 #Indapamide Tablets
+http://purl.obolibrary.org/obo/DRON_00014842 #Efloxate Tablets
+http://purl.obolibrary.org/obo/DRON_00068814 #Mexiletine Hydrochloride Capsules
+http://purl.obolibrary.org/obo/DRON_00068812 #Mexiletine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00067377 #Moricizine Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00067027 #Dopamine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00066287 #Phenylephrine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00064239 #Alfuzosin Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00064238 #Xatral(Alfuzosin Hydrochloride Sustained Release Tablets)
+http://purl.obolibrary.org/obo/DRON_00062770 #Lidocaine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00062770 #Compound Lidocaine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00062770 #Lidocaine Hydrochloride and Sodium Chloride Injection
+http://purl.obolibrary.org/obo/DRON_00062738 #Lidocaine Hydrochloride Gel
+http://purl.obolibrary.org/obo/DRON_00061855 #Losartan Potassium Tablets
+http://purl.obolibrary.org/obo/DRON_00061375 #Hydralazine Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00061246 #Pravastatin Sodium Tablets
+http://purl.obolibrary.org/obo/DRON_00060736 #Benazepril Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00060693 #Benazepril Hydrochlorideand Hydrochlorothiazide Tablets
+http://purl.obolibrary.org/obo/DRON_00060597 #Verapamil Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00060563 #Verapamil Hydrochloride Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00060078 #Clonidine Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00059777 #Clonidine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00059329 #Propafenone Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00059155 #Rosuvastatin Calcium Tablets
+http://purl.obolibrary.org/obo/DRON_00059097 #Nicardipine Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00059074 #Enalapril Maleate Tablets
+http://purl.obolibrary.org/obo/DRON_00059054 #Ncardipine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00059051 #Nicardipine Hydrochloride Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00058998 #Procainamide Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00058738 #Phenytoin Sodium Tablets
+http://purl.obolibrary.org/obo/DRON_00058329 #Amiodarone Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00058329 #Amiodarone Hydrochloride for Injection
+http://purl.obolibrary.org/obo/DRON_00057959 #Isosorbide Mononitrate Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00057885 #Amiodarone Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00057768 #Diltiazem Hydrochloride Tablets
+http://purl.obolibrary.org/obo/DRON_00057765 #Diltiazem Hydrochloride for Injection
+http://purl.obolibrary.org/obo/DRON_00057673 #Diltiazem Hydrochloride Sustaind-release Capsules
+http://purl.obolibrary.org/obo/DRON_00055083 #Candesartan Cilexetil Tablets
+http://purl.obolibrary.org/obo/DRON_00045254 #Isosorbide Mononitrate Tablets
+http://purl.obolibrary.org/obo/DRON_00039545 #Inositol Nicotinate Tables
+http://purl.obolibrary.org/obo/DRON_00039104 #Isosorbide Mononitrate Sustained Release Tablets
+http://purl.obolibrary.org/obo/DRON_00027803 #Lidocaine and Chlorhexine Acetate Aerosol
+http://purl.obolibrary.org/obo/DRON_00026872 #Nitroglycerin Aerosol
+http://purl.obolibrary.org/obo/DRON_00025499 #Dipyridamole and Sodium Chloride Injection
+http://purl.obolibrary.org/obo/DRON_00023851 #Nicardipine Hydrochloride and Sodium Chloride Injection
+http://purl.obolibrary.org/obo/DRON_00023851 #Nicardipine Hydrochloride and Glucose Injection
+http://purl.obolibrary.org/obo/DRON_00023815 #Dobutamine Hydrochlorideand Glucose Injection
+http://purl.obolibrary.org/obo/DRON_00023815 #Dobutamine Hydrochloride Injection
+http://purl.obolibrary.org/obo/DRON_00023396 #Simvastatin Pills
+http://purl.obolibrary.org/obo/DRON_00022721 #Sodium Nitroprusside for Injection
+http://purl.obolibrary.org/obo/DRON_00022719 #Nitroglycerin Tablets
+http://purl.obolibrary.org/obo/DRON_00022488 #Methytdopa Tablets
+http://purl.obolibrary.org/obo/DRON_00022405 #Mephentermine Sulfate Injection
+http://purl.obolibrary.org/obo/DRON_00020346 #Papaverine Hydrochloride and Sodium Chloride Injection
+http://purl.obolibrary.org/obo/DRON_00020346 #Papaverine Hydzochloride Injection
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+#http://www.ifomis.org/bfo/1.1#Entity
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity 
+
+http://purl.obolibrary.org/obo/DRON_00000005 #drug product
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity 
+
+http://purl.obolibrary.org/obo/DRON_00020324 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00020325 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00020323 
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 #role
+
+http://purl.obolibrary.org/obo/CHEBI_24431 #chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+http://purl.obolibrary.org/obo/CHEBI_23367 #molecular entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 #object
+
+http://purl.obolibrary.org/obo/IAO_0000030 #information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant 
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

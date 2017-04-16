@@ -1,0 +1,6569 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ontorat_0000002.owl#"
+     xml:base="&obo;ontorat_0000002.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="&obo;ontorat_0000002.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001849 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;OAE_0001849"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="&rdf;PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="&rdfs;Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="&xsd;float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="&xsd;integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="&xsd;nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="&xsd;string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000019 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000019">
+        <obo:OAE_0001849>挫伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000021 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000021">
+        <obo:OAE_0001849>面红</obo:OAE_0001849>
+        <obo:OAE_0001849>颜面潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>面色潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>面部发热</obo:OAE_0001849>
+        <obo:OAE_0001849>脸红</obo:OAE_0001849>
+        <obo:OAE_0001849>脸潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>面部潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>面潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>面赤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000022 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000022">
+        <obo:OAE_0001849>四肢痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000034 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000034">
+        <obo:OAE_0001849>昏睡</obo:OAE_0001849>
+        <obo:OAE_0001849>疲乏无力</obo:OAE_0001849>
+        <obo:OAE_0001849>疲劳</obo:OAE_0001849>
+        <obo:OAE_0001849>嗜睡</obo:OAE_0001849>
+        <obo:OAE_0001849>疲倦</obo:OAE_0001849>
+        <obo:OAE_0001849>乏力/疲劳</obo:OAE_0001849>
+        <obo:OAE_0001849>乏力</obo:OAE_0001849>
+        <obo:OAE_0001849>疲惫</obo:OAE_0001849>
+        <obo:OAE_0001849>疲乏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000038 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000038">
+        <obo:OAE_0001849>心肌缺血</obo:OAE_0001849>
+        <obo:OAE_0001849>心肌梗塞</obo:OAE_0001849>
+        <obo:OAE_0001849>心肌梗死</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000047 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000047">
+        <obo:OAE_0001849>瞬间皮肤发热</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000048 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000048">
+        <obo:OAE_0001849>眼球震颤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000050 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000050">
+        <obo:OAE_0001849>潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>潮热</obo:OAE_0001849>
+        <obo:OAE_0001849>瞬间皮肤发红发热</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤潮红(如感觉温热、皮肤发红、瘙痒或麻刺感）</obo:OAE_0001849>
+        <obo:OAE_0001849>热潮红</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤潮红</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000052 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000052">
+        <obo:OAE_0001849>肿瘤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000081 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000081">
+        <obo:OAE_0001849>不适感</obo:OAE_0001849>
+        <obo:OAE_0001849>不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000084 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000084">
+        <obo:OAE_0001849>心跳停顿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000086 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000086">
+        <obo:OAE_0001849>皮肤炎</obo:OAE_0001849>
+        <obo:OAE_0001849>皮炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000100 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000100">
+        <obo:OAE_0001849>流感样症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000166 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000166">
+        <obo:OAE_0001849>震颤（最先出现手细颤）</obo:OAE_0001849>
+        <obo:OAE_0001849>震颤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000183 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000183">
+        <obo:OAE_0001849>休克</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000194 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000194">
+        <obo:OAE_0001849>静脉炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000195 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000195">
+        <obo:OAE_0001849>胰腺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000198 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000198">
+        <obo:OAE_0001849>组织供血不足</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000205 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000205">
+        <obo:OAE_0001849>肌肉无力</obo:OAE_0001849>
+        <obo:OAE_0001849>肌无力</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000210 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000210">
+        <obo:OAE_0001849>肝炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000218 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000218">
+        <obo:OAE_0001849>心跳缓慢</obo:OAE_0001849>
+        <obo:OAE_0001849>矛盾性心动过缓</obo:OAE_0001849>
+        <obo:OAE_0001849>心动过缓</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000240 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000240">
+        <obo:OAE_0001849>紧张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000242 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000242">
+        <obo:OAE_0001849>腹部不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000243 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000243">
+        <obo:OAE_0001849>胃肠胀气</obo:OAE_0001849>
+        <obo:OAE_0001849>腹胀满</obo:OAE_0001849>
+        <obo:OAE_0001849>腹胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000246 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000246">
+        <obo:OAE_0001849>不良行为</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000247 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000247">
+        <obo:OAE_0001849>异常梦</obo:OAE_0001849>
+        <obo:OAE_0001849>梦异常</obo:OAE_0001849>
+        <obo:OAE_0001849>梦境异常</obo:OAE_0001849>
+        <obo:OAE_0001849>异常梦境</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000250 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000250">
+        <obo:OAE_0001849>痤疮</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000252 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000252">
+        <obo:OAE_0001849>部分凝血活酶时间延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000259 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000259">
+        <obo:OAE_0001849>急性肺水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000267 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000267">
+        <obo:OAE_0001849>攻击反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000268 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000268">
+        <obo:OAE_0001849>粒细胞缺乏症</obo:OAE_0001849>
+        <obo:OAE_0001849>粒性白细胞缺乏</obo:OAE_0001849>
+        <obo:OAE_0001849>粒细胞缺乏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000272 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000272">
+        <obo:OAE_0001849>ALT值增高</obo:OAE_0001849>
+        <obo:OAE_0001849>ALT增高</obo:OAE_0001849>
+        <obo:OAE_0001849>GPT升高</obo:OAE_0001849>
+        <obo:OAE_0001849>谷(氨酸)丙(酮酸)氨基转移酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>ALT的升高</obo:OAE_0001849>
+        <obo:OAE_0001849>ALT (SGPT)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>ALT升高</obo:OAE_0001849>
+        <obo:OAE_0001849>GPT的异常</obo:OAE_0001849>
+        <obo:OAE_0001849>谷丙转氨酶（GPT）升高</obo:OAE_0001849>
+        <obo:OAE_0001849>丙氨酸氨基转移酶增高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000280 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000280">
+        <obo:OAE_0001849>心绞痛发作</obo:OAE_0001849>
+        <obo:OAE_0001849>心绞痛</obo:OAE_0001849>
+        <obo:OAE_0001849>心绞痛(不稳定型除外)</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000287 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000287">
+        <obo:OAE_0001849>再生不良性贫血</obo:OAE_0001849>
+        <obo:OAE_0001849>再生障碍性贫血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000294 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000294">
+        <obo:OAE_0001849>亨诺克-舍恩莱因（亨-舍二氏）紫癜</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000296 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000296">
+        <obo:OAE_0001849>上腹部疼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000297 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000297">
+        <obo:OAE_0001849>味觉缺失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000300 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000300">
+        <obo:OAE_0001849>焦虑症</obo:OAE_0001849>
+        <obo:OAE_0001849>焦虑障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>焦虑</obo:OAE_0001849>
+        <obo:OAE_0001849>焦虑不安</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000301 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000301">
+        <obo:OAE_0001849>心房颤动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000302 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000302">
+        <obo:OAE_0001849>平衡失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000304 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000304">
+        <obo:OAE_0001849>蜂窝织炎</obo:OAE_0001849>
+        <obo:OAE_0001849>蜂窝组织炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000306 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000306">
+        <obo:OAE_0001849>抽搐</obo:OAE_0001849>
+        <obo:OAE_0001849>惊厥</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000308 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000308">
+        <obo:OAE_0001849>味觉异常</obo:OAE_0001849>
+        <obo:OAE_0001849>味觉障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000309 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000309">
+        <obo:OAE_0001849>运动障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000310 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000310">
+        <obo:OAE_0001849>呼吸困难</obo:OAE_0001849>
+        <obo:OAE_0001849>气短</obo:OAE_0001849>
+        <obo:OAE_0001849>呼吸困难（剂量依赖性）</obo:OAE_0001849>
+        <obo:OAE_0001849>呼吸短促</obo:OAE_0001849>
+        <obo:OAE_0001849>呼吸浅</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000312 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000312">
+        <obo:OAE_0001849>眼激惹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000313 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000313">
+        <obo:OAE_0001849>眼痒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000316 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000316">
+        <obo:OAE_0001849>心脏传导异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000317 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000317">
+        <obo:OAE_0001849>感觉迟钝</obo:OAE_0001849>
+        <obo:OAE_0001849>感觉减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000319 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000319">
+        <obo:OAE_0001849>流感综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000327 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000327">
+        <obo:OAE_0001849>关节肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000330 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000330">
+        <obo:OAE_0001849>唇肿胀</obo:OAE_0001849>
+        <obo:OAE_0001849>口唇水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000333 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000333">
+        <obo:OAE_0001849>软弱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000334 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000334">
+        <obo:OAE_0001849>僵硬</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000335 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000335">
+        <obo:OAE_0001849>鼻塞</obo:OAE_0001849>
+        <obo:OAE_0001849>鼻充血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000336 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000336">
+        <obo:OAE_0001849>鼻咽炎</obo:OAE_0001849>
+        <obo:OAE_0001849>感冒症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000337 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000337">
+        <obo:OAE_0001849>外周神经病</obo:OAE_0001849>
+        <obo:OAE_0001849>周围神经病</obo:OAE_0001849>
+        <obo:OAE_0001849>周围神经病变</obo:OAE_0001849>
+        <obo:OAE_0001849>外周神经病变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000340 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000340">
+        <obo:OAE_0001849>中耳炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000342 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000342">
+        <obo:OAE_0001849>咽肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000343 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000343">
+        <obo:OAE_0001849>咽头炎</obo:OAE_0001849>
+        <obo:OAE_0001849>咽炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000347 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000347">
+        <obo:OAE_0001849>呼吸窘迫</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000350 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000350">
+        <obo:OAE_0001849>鼻炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000351 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000351">
+        <obo:OAE_0001849>流涕</obo:OAE_0001849>
+        <obo:OAE_0001849>流鼻涕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000352 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000352">
+        <obo:OAE_0001849>肩痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000353 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000353">
+        <obo:OAE_0001849>鼻窦充血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000354 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000354">
+        <obo:OAE_0001849>喷嚏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000355 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000355">
+        <obo:OAE_0001849>脉搏加快（心动过速）</obo:OAE_0001849>
+        <obo:OAE_0001849>心动过速</obo:OAE_0001849>
+        <obo:OAE_0001849>心跳加快</obo:OAE_0001849>
+        <obo:OAE_0001849>心跳加速</obo:OAE_0001849>
+        <obo:OAE_0001849>心跳过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000358 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000358">
+        <obo:OAE_0001849>上呼吸道感染包括咽炎和鼻炎</obo:OAE_0001849>
+        <obo:OAE_0001849>上呼吸道感染</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000361 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000361">
+        <obo:OAE_0001849>发热</obo:OAE_0001849>
+        <obo:OAE_0001849>发烧</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000362 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000362">
+        <obo:OAE_0001849>疹</obo:OAE_0001849>
+        <obo:OAE_0001849>皮疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000363 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000363">
+        <obo:OAE_0001849>感染症状（如泌尿道感染包括膀胱炎）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000365 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000365">
+        <obo:OAE_0001849>激动</obo:OAE_0001849>
+        <obo:OAE_0001849>激越</obo:OAE_0001849>
+        <obo:OAE_0001849>精神兴奋</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000373 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000373">
+        <obo:OAE_0001849>搔痒症</obo:OAE_0001849>
+        <obo:OAE_0001849>瘙痒感</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤瘙痒</obo:OAE_0001849>
+        <obo:OAE_0001849>蚁走样瘙痒</obo:OAE_0001849>
+        <obo:OAE_0001849>不伴皮疹的瘙痒</obo:OAE_0001849>
+        <obo:OAE_0001849>瘙痒</obo:OAE_0001849>
+        <obo:OAE_0001849>瘙痒症</obo:OAE_0001849>
+        <obo:OAE_0001849>搔痒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000374 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000374">
+        <obo:OAE_0001849>全身疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>疼痛（肢红痛）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000375 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000375">
+        <obo:OAE_0001849>肌痛</obo:OAE_0001849>
+        <obo:OAE_0001849>肌肉疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>肌肉痛</obo:OAE_0001849>
+        <obo:OAE_0001849>骨骼肌痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000376 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000376">
+        <obo:OAE_0001849>寻麻疹</obo:OAE_0001849>
+        <obo:OAE_0001849>风团</obo:OAE_0001849>
+        <obo:OAE_0001849>风疹</obo:OAE_0001849>
+        <obo:OAE_0001849>荨麻疹（过敏反应）</obo:OAE_0001849>
+        <obo:OAE_0001849>荨麻疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000377 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000377">
+        <obo:OAE_0001849>头痛</obo:OAE_0001849>
+        <obo:OAE_0001849>头疼</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000379 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000379">
+        <obo:OAE_0001849>血液白细胞增高</obo:OAE_0001849>
+        <obo:OAE_0001849>白细胞增多</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000380 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000380">
+        <obo:OAE_0001849>白细胞减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000381 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000381">
+        <obo:OAE_0001849>血压变化</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000382 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000382">
+        <obo:OAE_0001849>衰弱</obo:OAE_0001849>
+        <obo:OAE_0001849>无力</obo:OAE_0001849>
+        <obo:OAE_0001849>虚弱</obo:OAE_0001849>
+        <obo:OAE_0001849>虚弱（疲劳）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000384 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000384">
+        <obo:OAE_0001849>斑丘疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000385 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000385">
+        <obo:OAE_0001849>关节痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000388 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000388">
+        <obo:OAE_0001849>头晕</obo:OAE_0001849>
+        <obo:OAE_0001849>头昏眼花</obo:OAE_0001849>
+        <obo:OAE_0001849>眼花</obo:OAE_0001849>
+        <obo:OAE_0001849>眩晕欲倒</obo:OAE_0001849>
+        <obo:OAE_0001849>头昏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000389 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000389">
+        <obo:OAE_0001849>周围性水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>外周性水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>四肢远端水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>外周水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>末梢水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000390 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000390">
+        <obo:OAE_0001849>全身不适</obo:OAE_0001849>
+        <obo:OAE_0001849>全身不适感</obo:OAE_0001849>
+        <obo:OAE_0001849>身体不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000391 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000391">
+        <obo:OAE_0001849>嗜眠</obo:OAE_0001849>
+        <obo:OAE_0001849>瞌睡</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000392 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000392">
+        <obo:OAE_0001849>感觉异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000394 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000394">
+        <obo:OAE_0001849>对寒冷敏感</obo:OAE_0001849>
+        <obo:OAE_0001849>寒颤</obo:OAE_0001849>
+        <obo:OAE_0001849>寒战</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000396 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000396">
+        <obo:OAE_0001849>食欲减退</obo:OAE_0001849>
+        <obo:OAE_0001849>食欲不振</obo:OAE_0001849>
+        <obo:OAE_0001849>食欲下降</obo:OAE_0001849>
+        <obo:OAE_0001849>胃纳减退</obo:OAE_0001849>
+        <obo:OAE_0001849>食欲减低</obo:OAE_0001849>
+        <obo:OAE_0001849>厌食症</obo:OAE_0001849>
+        <obo:OAE_0001849>胃纳不佳</obo:OAE_0001849>
+        <obo:OAE_0001849>厌食</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000397 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000397">
+        <obo:OAE_0001849>颜面浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>面肿胀</obo:OAE_0001849>
+        <obo:OAE_0001849>面部水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>面部肿胀</obo:OAE_0001849>
+        <obo:OAE_0001849>面部浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>颜面水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000398 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000398">
+        <obo:OAE_0001849>咳嗽</obo:OAE_0001849>
+        <obo:OAE_0001849>咳嗽加重</obo:OAE_0001849>
+        <obo:OAE_0001849>咳嗽增加</obo:OAE_0001849>
+        <obo:OAE_0001849>干咳</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000399 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000399">
+        <obo:OAE_0001849>流感症状</obo:OAE_0001849>
+        <obo:OAE_0001849>类流感样症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000400 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000400">
+        <obo:OAE_0001849>昏厥</obo:OAE_0001849>
+        <obo:OAE_0001849>昏厥（体位性低血压）</obo:OAE_0001849>
+        <obo:OAE_0001849>昏厥（突然丧失知觉）</obo:OAE_0001849>
+        <obo:OAE_0001849>晕倒</obo:OAE_0001849>
+        <obo:OAE_0001849>晕厥</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000401 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000401">
+        <obo:OAE_0001849>出汗</obo:OAE_0001849>
+        <obo:OAE_0001849>异常出汗</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000402 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000402">
+        <obo:OAE_0001849>腹痛</obo:OAE_0001849>
+        <obo:OAE_0001849>腹部疼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000403 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000403">
+        <obo:OAE_0001849>高血压</obo:OAE_0001849>
+        <obo:OAE_0001849>血压过高</obo:OAE_0001849>
+        <obo:OAE_0001849>血压增加10～20mmHg</obo:OAE_0001849>
+        <obo:OAE_0001849>静注时血压升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血压升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000406 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000406">
+        <obo:OAE_0001849>胸部疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>胸骨下疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>胸痛</obo:OAE_0001849>
+        <obo:OAE_0001849>胸部痛</obo:OAE_0001849>
+        <obo:OAE_0001849>剑下疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>不明确的胸痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000409 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000409">
+        <obo:OAE_0001849>颤抖</obo:OAE_0001849>
+        <obo:OAE_0001849>颤搐</obo:OAE_0001849>
+        <obo:OAE_0001849>颤动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000411 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000411">
+        <obo:OAE_0001849>哮喘</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000412 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000412">
+        <obo:OAE_0001849>颈痛</obo:OAE_0001849>
+        <obo:OAE_0001849>颈部疼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000414 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000414">
+        <obo:OAE_0001849>背部疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>背痛</obo:OAE_0001849>
+        <obo:OAE_0001849>后背痛（如坐骨神经痛）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000415 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000415">
+        <obo:OAE_0001849>秃头</obo:OAE_0001849>
+        <obo:OAE_0001849>秃头症</obo:OAE_0001849>
+        <obo:OAE_0001849>秃发</obo:OAE_0001849>
+        <obo:OAE_0001849>脱发</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000416 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000416">
+        <obo:OAE_0001849>胃肠出血</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠道出血</obo:OAE_0001849>
+        <obo:OAE_0001849>肠胃出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000422 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000422">
+        <obo:OAE_0001849>肌肉收缩</obo:OAE_0001849>
+        <obo:OAE_0001849>肌肉震颤</obo:OAE_0001849>
+        <obo:OAE_0001849>肌肉颤搐</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000423 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000423">
+        <obo:OAE_0001849>皮肤褪色</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤变色</obo:OAE_0001849>
+        <obo:OAE_0001849>肤色改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000424 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000424">
+        <obo:OAE_0001849>带状疱疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000427 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000427">
+        <obo:OAE_0001849>前列腺术后出血过多</obo:OAE_0001849>
+        <obo:OAE_0001849>出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000433 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000433">
+        <obo:OAE_0001849>性格改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000441 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000441">
+        <obo:OAE_0001849>混乱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000442 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000442">
+        <obo:OAE_0001849>关节病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000445 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000445">
+        <obo:OAE_0001849>血沉增快</obo:OAE_0001849>
+        <obo:OAE_0001849>ESR升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000447 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000447">
+        <obo:OAE_0001849>弱视</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000448 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000448">
+        <obo:OAE_0001849>反应迟钝</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000449 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000449">
+        <obo:OAE_0001849>多形红斑</obo:OAE_0001849>
+        <obo:OAE_0001849>多形性红斑</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000452 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000452">
+        <obo:OAE_0001849>异常思绪</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000453 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000453">
+        <obo:OAE_0001849>消化不良</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000455 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000455">
+        <obo:OAE_0001849>胃肠道紊乱</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠功能紊乱</obo:OAE_0001849>
+        <obo:OAE_0001849>胃或肠道消化功能失调</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠道不适</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠反应</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠道反应</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠道障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠道功能紊乱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000460 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000460">
+        <obo:OAE_0001849>晕眩</obo:OAE_0001849>
+        <obo:OAE_0001849>眩晕（体位性低血压）</obo:OAE_0001849>
+        <obo:OAE_0001849>眩晕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000461 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000461">
+        <obo:OAE_0001849>心跳停止</obo:OAE_0001849>
+        <obo:OAE_0001849>心脏停搏</obo:OAE_0001849>
+        <obo:OAE_0001849>心搏骤停</obo:OAE_0001849>
+        <obo:OAE_0001849>心脏骤停</obo:OAE_0001849>
+        <obo:OAE_0001849>心脏停博</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000462 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000462">
+        <obo:OAE_0001849>支气管炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000464 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000464">
+        <obo:OAE_0001849>肝功能检测异常</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功能检查异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000468 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000468">
+        <obo:OAE_0001849>眼及皮肤明显黄染</obo:OAE_0001849>
+        <obo:OAE_0001849>黄疸</obo:OAE_0001849>
+        <obo:OAE_0001849>黄疸 (肝内胆汁於积性黄疸)</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000470 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000470">
+        <obo:OAE_0001849>眼睛刺痛感</obo:OAE_0001849>
+        <obo:OAE_0001849>眼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000471 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000471">
+        <obo:OAE_0001849>心悸;</obo:OAE_0001849>
+        <obo:OAE_0001849>心悸</obo:OAE_0001849>
+        <obo:OAE_0001849>心慌</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000472 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000472">
+        <obo:OAE_0001849>舌肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000473 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000473">
+        <obo:OAE_0001849>耳痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000474 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000474">
+        <obo:OAE_0001849>血管性水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>血管神经性水肿（奎根水肿）</obo:OAE_0001849>
+        <obo:OAE_0001849>血管神经性水肿发生</obo:OAE_0001849>
+        <obo:OAE_0001849>血管神经性水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000477 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000477">
+        <obo:OAE_0001849>抗核抗体阳性</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000479 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000479">
+        <obo:OAE_0001849>偏头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000482 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000482">
+        <obo:OAE_0001849>健忘</obo:OAE_0001849>
+        <obo:OAE_0001849>健忘症</obo:OAE_0001849>
+        <obo:OAE_0001849>遗忘</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000487 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000487">
+        <obo:OAE_0001849>紫癜 (包括亨诺赫-舍恩莱因紫癜)</obo:OAE_0001849>
+        <obo:OAE_0001849>紫癫</obo:OAE_0001849>
+        <obo:OAE_0001849>紫癜</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000491 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000491">
+        <obo:OAE_0001849>昏迷</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000492 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000492">
+        <obo:OAE_0001849>运动过度</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000493 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000493">
+        <obo:OAE_0001849>心血管意外</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000496 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000496">
+        <obo:OAE_0001849>胃肠炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000498 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000498">
+        <obo:OAE_0001849>尿道感染</obo:OAE_0001849>
+        <obo:OAE_0001849>泌尿道感染</obo:OAE_0001849>
+        <obo:OAE_0001849>尿路感染</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000499 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000499">
+        <obo:OAE_0001849>唾液分泌增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000500 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000500">
+        <obo:OAE_0001849>精神抑郁</obo:OAE_0001849>
+        <obo:OAE_0001849>抑郁</obo:OAE_0001849>
+        <obo:OAE_0001849>情绪抑郁</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000501 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000501">
+        <obo:OAE_0001849>糖尿病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000502 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000502">
+        <obo:OAE_0001849>喉炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000505 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000505">
+        <obo:OAE_0001849>口干</obo:OAE_0001849>
+        <obo:OAE_0001849>口干（与剂量有关）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000508 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000508">
+        <obo:OAE_0001849>鼻出血</obo:OAE_0001849>
+        <obo:OAE_0001849>鼻衄</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000509 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000509">
+        <obo:OAE_0001849>狼疮样综合症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000510 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000510">
+        <obo:OAE_0001849>畏光</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000512 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000512">
+        <obo:OAE_0001849>幻觉</obo:OAE_0001849>
+        <obo:OAE_0001849>幻视</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000514 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000514">
+        <obo:OAE_0001849>神经痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000517 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000517">
+        <obo:OAE_0001849>口渴</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000520 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000520">
+        <obo:OAE_0001849>易激动</obo:OAE_0001849>
+        <obo:OAE_0001849>情绪波动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000521 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000521">
+        <obo:OAE_0001849>肌痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000524 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000524">
+        <obo:OAE_0001849>视觉障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000525 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000525">
+        <obo:OAE_0001849>肌病</obo:OAE_0001849>
+        <obo:OAE_0001849>肌病（包括肌炎）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000526 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000526">
+        <obo:OAE_0001849>情感淡漠</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000528 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000528">
+        <obo:OAE_0001849>脓疱疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000529 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000529">
+        <obo:OAE_0001849>血肌酸激酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清磷酸肌酸激酶(CPK)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>CPK增高</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酸磷酸激酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酸激酶增加</obo:OAE_0001849>
+        <obo:OAE_0001849>来源于骨骼肌部分的血清磷酸肌酸激酶(CK)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>CPK升高</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酸激酶（CK）水平的升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清肌酸激酶(CK)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血肌酸激酶增加</obo:OAE_0001849>
+        <obo:OAE_0001849>血清肌酸磷酸激酶升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000530 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000530">
+        <obo:OAE_0001849>颅压过高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000533 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000533">
+        <obo:OAE_0001849>骨骼疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>骨痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000534 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000534">
+        <obo:OAE_0001849>脑血管意外</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000536 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000536">
+        <obo:OAE_0001849>胃胀气</obo:OAE_0001849>
+        <obo:OAE_0001849>胃胀</obo:OAE_0001849>
+        <obo:OAE_0001849>肠胃胀气</obo:OAE_0001849>
+        <obo:OAE_0001849>胀气</obo:OAE_0001849>
+        <obo:OAE_0001849>肠胃气胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000538 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000538">
+        <obo:OAE_0001849>咽喉痛</obo:OAE_0001849>
+        <obo:OAE_0001849>咽痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000541 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000541">
+        <obo:OAE_0001849>消瘦</obo:OAE_0001849>
+        <obo:OAE_0001849>体重下降</obo:OAE_0001849>
+        <obo:OAE_0001849>体重减轻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000542 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000542">
+        <obo:OAE_0001849>运动失调</obo:OAE_0001849>
+        <obo:OAE_0001849>共济失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000543 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000543">
+        <obo:OAE_0001849>皮肤异常如湿疹</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤功能异常</obo:OAE_0001849>
+        <obo:OAE_0001849>银屑样皮肤改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000544 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000544">
+        <obo:OAE_0001849>步态异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000545 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000545">
+        <obo:OAE_0001849>脱水</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000547 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000547">
+        <obo:OAE_0001849>高血糖症状</obo:OAE_0001849>
+        <obo:OAE_0001849>高糖血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000549 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000549">
+        <obo:OAE_0001849>皮肤紫绀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000550 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000550">
+        <obo:OAE_0001849>贫血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000551 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000551">
+        <obo:OAE_0001849>血压降低</obo:OAE_0001849>
+        <obo:OAE_0001849>血压降至正常值以下（低血压反应）</obo:OAE_0001849>
+        <obo:OAE_0001849>低血压</obo:OAE_0001849>
+        <obo:OAE_0001849>血压下降</obo:OAE_0001849>
+        <obo:OAE_0001849>血压下降（尤其原有血压生高者）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000556 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000556">
+        <obo:OAE_0001849>囊样斑块水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>肢体下垂部位浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>肿胀</obo:OAE_0001849>
+        <obo:OAE_0001849>水肿/肿胀</obo:OAE_0001849>
+        <obo:OAE_0001849>水储留</obo:OAE_0001849>
+        <obo:OAE_0001849>水肿（剂量依赖性）</obo:OAE_0001849>
+        <obo:OAE_0001849>浮肿/肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000561 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000561">
+        <obo:OAE_0001849>结膜炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000565 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000565">
+        <obo:OAE_0001849>血管炎</obo:OAE_0001849>
+        <obo:OAE_0001849>脉管炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000566 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000566">
+        <obo:OAE_0001849>涎腺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000567 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000567">
+        <obo:OAE_0001849>鼻窦炎</obo:OAE_0001849>
+        <obo:OAE_0001849>窦炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000568 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000568">
+        <obo:OAE_0001849>过敏反应</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏反应（呼吸困难和皮肤反应）</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏反应综合征</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏反应（最严重的反应为过敏性休克）</obo:OAE_0001849>
+        <obo:OAE_0001849>变态反应</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏性反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000572 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000572">
+        <obo:OAE_0001849>呼吸停止</obo:OAE_0001849>
+        <obo:OAE_0001849>呼吸暂停</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000573 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000573">
+        <obo:OAE_0001849>听力丧失</obo:OAE_0001849>
+        <obo:OAE_0001849>耳聋</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000576 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000576">
+        <obo:OAE_0001849>多尿症</obo:OAE_0001849>
+        <obo:OAE_0001849>尿量增加</obo:OAE_0001849>
+        <obo:OAE_0001849>光敏感性</obo:OAE_0001849>
+        <obo:OAE_0001849>光过敏</obo:OAE_0001849>
+        <obo:OAE_0001849>多尿</obo:OAE_0001849>
+        <obo:OAE_0001849>光过敏症</obo:OAE_0001849>
+        <obo:OAE_0001849>光敏感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000577 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000577">
+        <obo:OAE_0001849>血药浓度峰值时瞬间失明</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000578 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000578">
+        <obo:OAE_0001849>视觉异常</obo:OAE_0001849>
+        <obo:OAE_0001849>视力障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000584 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000584">
+        <obo:OAE_0001849>高敏反应</obo:OAE_0001849>
+        <obo:OAE_0001849>超敏反应</obo:OAE_0001849>
+        <obo:OAE_0001849>超敏反应，如皮疹、荨麻疹等</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000586 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000586">
+        <obo:OAE_0001849>过度换气</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000587 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000587">
+        <obo:OAE_0001849>呼吸抑制</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000589 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000589">
+        <obo:OAE_0001849>瞳孔扩大</obo:OAE_0001849>
+        <obo:OAE_0001849>瞳孔散大</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000590 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000590">
+        <obo:OAE_0001849>心率加快</obo:OAE_0001849>
+        <obo:OAE_0001849>心率增加5～15次／min</obo:OAE_0001849>
+        <obo:OAE_0001849>心率加快（心动过速）</obo:OAE_0001849>
+        <obo:OAE_0001849>心率快</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000594 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000594">
+        <obo:OAE_0001849>乳酸脱氢酶(LDH)的升高</obo:OAE_0001849>
+        <obo:OAE_0001849>LDH升高</obo:OAE_0001849>
+        <obo:OAE_0001849>乳酸脱氢酶(LDH)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>乳酸脱氢酶升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000596 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000596">
+        <obo:OAE_0001849>关节炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000597 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000597">
+        <obo:OAE_0001849>吞咽困难</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000599 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000599">
+        <obo:OAE_0001849>血小板计数降低</obo:OAE_0001849>
+        <obo:OAE_0001849>血小板计数减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000600 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000600">
+        <obo:OAE_0001849>恶心</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000601 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000601">
+        <obo:OAE_0001849>呕吐（刺激延髓中枢）</obo:OAE_0001849>
+        <obo:OAE_0001849>呕吐</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000602 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000602">
+        <obo:OAE_0001849>便秘</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000604 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000604">
+        <obo:OAE_0001849>尿失禁</obo:OAE_0001849>
+        <obo:OAE_0001849>小便失禁</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000606 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000606">
+        <obo:OAE_0001849>皮肤苍白</obo:OAE_0001849>
+        <obo:OAE_0001849>面色苍白</obo:OAE_0001849>
+        <obo:OAE_0001849>苍白</obo:OAE_0001849>
+        <obo:OAE_0001849>面部苍白</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000607 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000607">
+        <obo:OAE_0001849>耳鸣</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000608 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000608">
+        <obo:OAE_0001849>口腔炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000611 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000611">
+        <obo:OAE_0001849>肌张力增强</obo:OAE_0001849>
+        <obo:OAE_0001849>痉挛</obo:OAE_0001849>
+        <obo:OAE_0001849>肌张力过高</obo:OAE_0001849>
+        <obo:OAE_0001849>张力过高</obo:OAE_0001849>
+        <obo:OAE_0001849>张力亢进</obo:OAE_0001849>
+        <obo:OAE_0001849>张力过强</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000613 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000613">
+        <obo:OAE_0001849>骨骼肌发炎</obo:OAE_0001849>
+        <obo:OAE_0001849>肌炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000616 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000616">
+        <obo:OAE_0001849>腹泄</obo:OAE_0001849>
+        <obo:OAE_0001849>腹泻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000619 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000619">
+        <obo:OAE_0001849>血尿症</obo:OAE_0001849>
+        <obo:OAE_0001849>血尿</obo:OAE_0001849>
+        <obo:OAE_0001849>血尿浓度增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000621 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000621">
+        <obo:OAE_0001849>反射性心率减慢</obo:OAE_0001849>
+        <obo:OAE_0001849>心率缓慢</obo:OAE_0001849>
+        <obo:OAE_0001849>心率减慢（心动过缓）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000625 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000625">
+        <obo:OAE_0001849>周围神经炎</obo:OAE_0001849>
+        <obo:OAE_0001849>神经炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000626 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000626">
+        <obo:OAE_0001849>复视</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000629 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000629">
+        <obo:OAE_0001849>精神紧张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000630 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000630">
+        <obo:OAE_0001849>瘀癍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000632 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000632">
+        <obo:OAE_0001849>致死</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000645 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000645">
+        <obo:OAE_0001849>红斑</obo:OAE_0001849>
+        <obo:OAE_0001849>红癍</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤发红</obo:OAE_0001849>
+        <obo:OAE_0001849>红斑（发红）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000646 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000646">
+        <obo:OAE_0001849>窦性头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000656 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000656">
+        <obo:OAE_0001849>门冬氨酸氨基转移酶增高</obo:OAE_0001849>
+        <obo:OAE_0001849>GOT的异常</obo:OAE_0001849>
+        <obo:OAE_0001849>AST值增高</obo:OAE_0001849>
+        <obo:OAE_0001849>AST升高</obo:OAE_0001849>
+        <obo:OAE_0001849>谷氨酸草酰乙酸氨基转移酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>GOT升高</obo:OAE_0001849>
+        <obo:OAE_0001849>谷草转氨酶（GOT）升高</obo:OAE_0001849>
+        <obo:OAE_0001849>AST增高</obo:OAE_0001849>
+        <obo:OAE_0001849>谷氨酸草酰乙酸氨基转移酶增高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000659 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000659">
+        <obo:OAE_0001849>房颤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000660 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000660">
+        <obo:OAE_0001849>心律失常（尤其用大剂量）</obo:OAE_0001849>
+        <obo:OAE_0001849>心律失常（包括室性心动过速以及心房颤动）</obo:OAE_0001849>
+        <obo:OAE_0001849>心律不齐</obo:OAE_0001849>
+        <obo:OAE_0001849>致心律失常作用</obo:OAE_0001849>
+        <obo:OAE_0001849>心率失常</obo:OAE_0001849>
+        <obo:OAE_0001849>心律失常</obo:OAE_0001849>
+        <obo:OAE_0001849>新的心律失常</obo:OAE_0001849>
+        <obo:OAE_0001849>心律失常(包括心动过缓，室性心动过速和房颤)</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000670 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000670">
+        <obo:OAE_0001849>血常规异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000671 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000671">
+        <obo:OAE_0001849>反射减弱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000688 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000688">
+        <obo:OAE_0001849>胃不适</obo:OAE_0001849>
+        <obo:OAE_0001849>胃部不适</obo:OAE_0001849>
+        <obo:OAE_0001849>胃肠不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000690 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000690">
+        <obo:OAE_0001849>吸气末期喘鸣</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000691 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000691">
+        <obo:OAE_0001849>皮肤溃疡</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤破潰</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000697 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000697">
+        <obo:OAE_0001849>阴道出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000698 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000698">
+        <obo:OAE_0001849>血管舒张</obo:OAE_0001849>
+        <obo:OAE_0001849>血管扩张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000716 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000716">
+        <obo:OAE_0001849>眼睑炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000718 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000718">
+        <obo:OAE_0001849>ALP的异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000720 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000720">
+        <obo:OAE_0001849>碱性磷酸酶增高</obo:OAE_0001849>
+        <obo:OAE_0001849>ALP升高</obo:OAE_0001849>
+        <obo:OAE_0001849>碱性磷酸酶增加</obo:OAE_0001849>
+        <obo:OAE_0001849>血碱性磷酸酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>AL-P升高</obo:OAE_0001849>
+        <obo:OAE_0001849>碱性磷酸酶(ALP)升高</obo:OAE_0001849>
+        <obo:OAE_0001849>碱性磷酸酶的升高</obo:OAE_0001849>
+        <obo:OAE_0001849>碱性磷酸酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>AKP的升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000724 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000724">
+        <obo:OAE_0001849>血清胆红质增高</obo:OAE_0001849>
+        <obo:OAE_0001849>胆红素增加</obo:OAE_0001849>
+        <obo:OAE_0001849>胆红素的升高</obo:OAE_0001849>
+        <obo:OAE_0001849>胆红素升高</obo:OAE_0001849>
+        <obo:OAE_0001849>胆红素增高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000725 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000725">
+        <obo:OAE_0001849>低血钙</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000727 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000727">
+        <obo:OAE_0001849>总胆固醇升高</obo:OAE_0001849>
+        <obo:OAE_0001849>胆固醇升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000729 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000729">
+        <obo:OAE_0001849>血肌酐增加</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酐增加</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酐升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清肌酐升高</obo:OAE_0001849>
+        <obo:OAE_0001849>肌酐上升</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000733 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000733">
+        <obo:OAE_0001849>低血糖反应</obo:OAE_0001849>
+        <obo:OAE_0001849>低血糖</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000734 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000734">
+        <obo:OAE_0001849>血糖含量增加</obo:OAE_0001849>
+        <obo:OAE_0001849>高血糖</obo:OAE_0001849>
+        <obo:OAE_0001849>血糖升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血糖增加</obo:OAE_0001849>
+        <obo:OAE_0001849>抑制抗利尿激素和胰岛素分泌使血糖升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000740 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000740">
+        <obo:OAE_0001849>血磷降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000741 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000741">
+        <obo:OAE_0001849>钾离子缺乏</obo:OAE_0001849>
+        <obo:OAE_0001849>低血钾</obo:OAE_0001849>
+        <obo:OAE_0001849>血清钾水平降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000744 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000744">
+        <obo:OAE_0001849>低钠血</obo:OAE_0001849>
+        <obo:OAE_0001849>血清钠水平降低</obo:OAE_0001849>
+        <obo:OAE_0001849>低血钠</obo:OAE_0001849>
+        <obo:OAE_0001849>低钠血症</obo:OAE_0001849>
+        <obo:OAE_0001849>血钠浓度减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000747 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000747">
+        <obo:OAE_0001849>BUN增加</obo:OAE_0001849>
+        <obo:OAE_0001849>BUN升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清尿素氮升高</obo:OAE_0001849>
+        <obo:OAE_0001849>BUN（尿素氮）增加</obo:OAE_0001849>
+        <obo:OAE_0001849>BUN上升</obo:OAE_0001849>
+        <obo:OAE_0001849>尿素氮升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血尿素氮升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清尿素升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000748 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000748">
+        <obo:OAE_0001849>血尿酸水平升高</obo:OAE_0001849>
+        <obo:OAE_0001849>尿酸增加</obo:OAE_0001849>
+        <obo:OAE_0001849>尿酸升高</obo:OAE_0001849>
+        <obo:OAE_0001849>尿酸浓度升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血尿酸增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000752 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000752">
+        <obo:OAE_0001849>骨髓抑制</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000770 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000770">
+        <obo:OAE_0001849>支气管痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000771 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000771">
+        <obo:OAE_0001849>烧灼感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000779 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000779">
+        <obo:OAE_0001849>心衰</obo:OAE_0001849>
+        <obo:OAE_0001849>心力衰竭</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000780 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000780">
+        <obo:OAE_0001849>充血性心力衰竭</obo:OAE_0001849>
+        <obo:OAE_0001849>充血性心衰</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000785 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000785">
+        <obo:OAE_0001849>心肌病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000789 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000789">
+        <obo:OAE_0001849>白内障</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000802 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000802">
+        <obo:OAE_0001849>脑缺血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000807 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000807">
+        <obo:OAE_0001849>胸部不适</obo:OAE_0001849>
+        <obo:OAE_0001849>胸闷</obo:OAE_0001849>
+        <obo:OAE_0001849>胸部紧压感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000811 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000811">
+        <obo:OAE_0001849>肝脏胆汁郁积</obo:OAE_0001849>
+        <obo:OAE_0001849>胆汁淤积</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000821 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000821">
+        <obo:OAE_0001849>虚脱</obo:OAE_0001849>
+        <obo:OAE_0001849>虚脱现象（常伴有心动过缓和晕厥）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000825 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000825">
+        <obo:OAE_0001849>大肠炎</obo:OAE_0001849>
+        <obo:OAE_0001849>结肠炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000852 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000852">
+        <obo:OAE_0001849>出血性膀胱炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000862 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000862">
+        <obo:OAE_0001849>谵妄</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000866 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000866">
+        <obo:OAE_0001849>表皮脱落性皮炎（炎症性皮肤病）</obo:OAE_0001849>
+        <obo:OAE_0001849>脱落性皮炎</obo:OAE_0001849>
+        <obo:OAE_0001849>剥脱性皮炎</obo:OAE_0001849>
+        <obo:OAE_0001849>红皮病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000883 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000883">
+        <obo:OAE_0001849>注意力不集中</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000889 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000889">
+        <obo:OAE_0001849>药疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000893 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000893">
+        <obo:OAE_0001849>戒断综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000894 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000894">
+        <obo:OAE_0001849>皮肤干燥</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000900 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000900">
+        <obo:OAE_0001849>发声困难</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000902 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000902">
+        <obo:OAE_0001849>排尿困难</obo:OAE_0001849>
+        <obo:OAE_0001849>排尿障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>排尿异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000905 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000905">
+        <obo:OAE_0001849>湿疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000909 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000909">
+        <obo:OAE_0001849>心电图异常</obo:OAE_0001849>
+        <obo:OAE_0001849>心电图异常如传导紊乱</obo:OAE_0001849>
+        <obo:OAE_0001849>心电图变化</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000911 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000911">
+        <obo:OAE_0001849>QT间期延</obo:OAE_0001849>
+        <obo:OAE_0001849>心电图Q-T间期延长</obo:OAE_0001849>
+        <obo:OAE_0001849>QT间期延长</obo:OAE_0001849>
+        <obo:OAE_0001849>Q-T间期延长</obo:OAE_0001849>
+        <obo:OAE_0001849>Q-T延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000913 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000913">
+        <obo:OAE_0001849>电解质失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000914 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000914">
+        <obo:OAE_0001849>情绪紊乱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000920 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000920">
+        <obo:OAE_0001849>血嗜酸性细胞增高</obo:OAE_0001849>
+        <obo:OAE_0001849>嗜酸性细胞增多</obo:OAE_0001849>
+        <obo:OAE_0001849>嗜酸性粒细胞增多</obo:OAE_0001849>
+        <obo:OAE_0001849>嗜酸粒细胞增多</obo:OAE_0001849>
+        <obo:OAE_0001849>嗜酸性粒细胞增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000921 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000921">
+        <obo:OAE_0001849>勃起功能障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>阳萎</obo:OAE_0001849>
+        <obo:OAE_0001849>阳痿</obo:OAE_0001849>
+        <obo:OAE_0001849>勃起功能障碍/阳萎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000935 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000935">
+        <obo:OAE_0001849>眼出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000946 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000946">
+        <obo:OAE_0001849>热感</obo:OAE_0001849>
+        <obo:OAE_0001849>感觉温热</obo:OAE_0001849>
+        <obo:OAE_0001849>热觉</obo:OAE_0001849>
+        <obo:OAE_0001849>热感（红斑）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000950 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000950">
+        <obo:OAE_0001849>体液潴留</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000957 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000957">
+        <obo:OAE_0001849>血细胞降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000964 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000964">
+        <obo:OAE_0001849>γ-谷氨酸转肽酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>γ-GTP升高</obo:OAE_0001849>
+        <obo:OAE_0001849>γ-GT升高</obo:OAE_0001849>
+        <obo:OAE_0001849>GGT升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000967 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000967">
+        <obo:OAE_0001849>胃溃疡</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000968 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000968">
+        <obo:OAE_0001849>胃炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000987 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000987">
+        <obo:OAE_0001849>牙龈肿大</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000998 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000998">
+        <obo:OAE_0001849>粒细胞减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001001 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001001">
+        <obo:OAE_0001849>男性乳房女性化</obo:OAE_0001849>
+        <obo:OAE_0001849>男性乳腺发育</obo:OAE_0001849>
+        <obo:OAE_0001849>男子女性乳房</obo:OAE_0001849>
+        <obo:OAE_0001849>男性乳房发育</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001003 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001003">
+        <obo:OAE_0001849>呕血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001005 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001005">
+        <obo:OAE_0001849>血球容积减少</obo:OAE_0001849>
+        <obo:OAE_0001849>血细胞比容降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001019 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001019">
+        <obo:OAE_0001849>痔疮</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001023 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001023">
+        <obo:OAE_0001849>血红蛋白减少</obo:OAE_0001849>
+        <obo:OAE_0001849>血红蛋白下降</obo:OAE_0001849>
+        <obo:OAE_0001849>血红蛋白降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001025 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001025">
+        <obo:OAE_0001849>肝酶浓度增加</obo:OAE_0001849>
+        <obo:OAE_0001849>肝酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>各种肝的酶类增高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001026 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001026">
+        <obo:OAE_0001849>肝功能衰竭</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001032 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001032">
+        <obo:OAE_0001849>黑棘皮病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001035 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001035">
+        <obo:OAE_0001849>肝肿大</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001036 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001036">
+        <obo:OAE_0001849>肝毒性反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001044 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001044">
+        <obo:OAE_0001849>高钙血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001045 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001045">
+        <obo:OAE_0001849>多汗</obo:OAE_0001849>
+        <obo:OAE_0001849>大汗</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001046 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001046">
+        <obo:OAE_0001849>高血钾症(血清钾&gt;5.5mEq/L)</obo:OAE_0001849>
+        <obo:OAE_0001849>高钾血症 (血钾＞505mEp/l)</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001053 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001053">
+        <obo:OAE_0001849>痛风</obo:OAE_0001849>
+        <obo:OAE_0001849>高尿酸血症</obo:OAE_0001849>
+        <obo:OAE_0001849>痛风的发作</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001057 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001057">
+        <obo:OAE_0001849>低糖血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001058 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001058">
+        <obo:OAE_0001849>低钾血症</obo:OAE_0001849>
+        <obo:OAE_0001849>低血钾症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001063 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001063">
+        <obo:OAE_0001849>甲状腺机能低下</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001064 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001064">
+        <obo:OAE_0001849>血容量减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001068 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001068">
+        <obo:OAE_0001849>肠梗阻（肠麻痹导致的肠运送障碍）</obo:OAE_0001849>
+        <obo:OAE_0001849>肠梗阻（肠麻痹导致的肠道运送障碍）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001098 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001098">
+        <obo:OAE_0001849>肠梗阻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001101 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001101">
+        <obo:OAE_0001849>颅内压增高恶化</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001105 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001105">
+        <obo:OAE_0001849>烦躁</obo:OAE_0001849>
+        <obo:OAE_0001849>易激惹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001106 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001106">
+        <obo:OAE_0001849>胆汁淤积型黄疸</obo:OAE_0001849>
+        <obo:OAE_0001849>胆汁淤积性黄疸</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001126 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001126">
+        <obo:OAE_0001849>白细胞碎裂性血管炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001127 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001127">
+        <obo:OAE_0001849>尿白细胞阳性</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001129 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001129">
+        <obo:OAE_0001849>白细胞减少症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001130 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001130">
+        <obo:OAE_0001849>性欲改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001131 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001131">
+        <obo:OAE_0001849>扁平苔藓</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001145 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001145">
+        <obo:OAE_0001849>肺浸润</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001147 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001147">
+        <obo:OAE_0001849>淋巴结病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001166 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001166">
+        <obo:OAE_0001849>黑便</obo:OAE_0001849>
+        <obo:OAE_0001849>柏油样黑色大便</obo:OAE_0001849>
+        <obo:OAE_0001849>黑粪</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001190 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001190">
+        <obo:OAE_0001849>口腔溃疡</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001192 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001192">
+        <obo:OAE_0001849>肌肉痉挛</obo:OAE_0001849>
+        <obo:OAE_0001849>痛性痉挛</obo:OAE_0001849>
+        <obo:OAE_0001849>肌肉痛性痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001195 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001195">
+        <obo:OAE_0001849>肌肉骨骼胸痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001209 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001209">
+        <obo:OAE_0001849>肾病综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001217 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001217">
+        <obo:OAE_0001849>中性粒细胞减少</obo:OAE_0001849>
+        <obo:OAE_0001849>中性粒细胞减少症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001234 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001234">
+        <obo:OAE_0001849>食道炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001269 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001269">
+        <obo:OAE_0001849>皮肤疼痛</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤刺痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001275 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001275">
+        <obo:OAE_0001849>各类血细胞减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001283 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001283">
+        <obo:OAE_0001849>齿龈炎</obo:OAE_0001849>
+        <obo:OAE_0001849>牙龈炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001285 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001285">
+        <obo:OAE_0001849>外周缺血</obo:OAE_0001849>
+        <obo:OAE_0001849>外周末梢缺血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001291 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001291">
+        <obo:OAE_0001849>瘀点</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001295 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001295">
+        <obo:OAE_0001849>光敏反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001297 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001297">
+        <obo:OAE_0001849>房室传导阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>房室传导阻滞(I、II、III度)</obo:OAE_0001849>
+        <obo:OAE_0001849>房室阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>房室传导阻滞（Ⅰ、Ⅱ、Ⅲ度）</obo:OAE_0001849>
+        <obo:OAE_0001849>I度、II度或III度房室阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>房室阻断症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001298 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001298">
+        <obo:OAE_0001849>胸腔积液</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001309 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001309">
+        <obo:OAE_0001849>尿频</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001326 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001326">
+        <obo:OAE_0001849>排痰性咳嗽</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001332 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001332">
+        <obo:OAE_0001849>血浆凝血酶原时间延长</obo:OAE_0001849>
+        <obo:OAE_0001849>凝血酶原时间延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001336 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001336">
+        <obo:OAE_0001849>精神失常</obo:OAE_0001849>
+        <obo:OAE_0001849>精神错乱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001345 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001345">
+        <obo:OAE_0001849>肺水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001346 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001346">
+        <obo:OAE_0001849>脉搏消失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001355 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001355">
+        <obo:OAE_0001849>吸气末期罗音</obo:OAE_0001849>
+        <obo:OAE_0001849>罗音</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001360 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001360">
+        <obo:OAE_0001849>直肠出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001364 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001364">
+        <obo:OAE_0001849>肾衰</obo:OAE_0001849>
+        <obo:OAE_0001849>肾功能衰竭</obo:OAE_0001849>
+        <obo:OAE_0001849>肾衰竭</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001365 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001365">
+        <obo:OAE_0001849>急性肾功能衰竭</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001366 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001366">
+        <obo:OAE_0001849>肾损害</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001369 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001369">
+        <obo:OAE_0001849>呼吸疾病</obo:OAE_0001849>
+        <obo:OAE_0001849>呼吸障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001373 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001373">
+        <obo:OAE_0001849>呼吸道感染</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001378 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001378">
+        <obo:OAE_0001849>横纹肌溶解症</obo:OAE_0001849>
+        <obo:OAE_0001849>横纹肌溶解</obo:OAE_0001849>
+        <obo:OAE_0001849>横纹肌溶解综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001384 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001384">
+        <obo:OAE_0001849>巩膜充血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001392 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001392">
+        <obo:OAE_0001849>窦性失调</obo:OAE_0001849>
+        <obo:OAE_0001849>窦失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001393 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001393">
+        <obo:OAE_0001849>窦性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001403 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001403">
+        <obo:OAE_0001849>睡眠异常</obo:OAE_0001849>
+        <obo:OAE_0001849>睡眠障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>睡眠紊乱</obo:OAE_0001849>
+        <obo:OAE_0001849>睡眠失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001420 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001420">
+        <obo:OAE_0001849>痰多</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001425 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001425">
+        <obo:OAE_0001849>Stevens-Johnson 综合征</obo:OAE_0001849>
+        <obo:OAE_0001849>Steven-Johnson综合症</obo:OAE_0001849>
+        <obo:OAE_0001849>Stevens-Johnson综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001430 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001430">
+        <obo:OAE_0001849>胃出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001434 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001434">
+        <obo:OAE_0001849>双重感染</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001436 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001436">
+        <obo:OAE_0001849>室性期外收缩</obo:OAE_0001849>
+        <obo:OAE_0001849>室上性早搏</obo:OAE_0001849>
+        <obo:OAE_0001849>房性早搏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001437 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001437">
+        <obo:OAE_0001849>室上性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001442 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001442">
+        <obo:OAE_0001849>阵发性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001443 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001443">
+        <obo:OAE_0001849>呼吸急促</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001448 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001448">
+        <obo:OAE_0001849>血小板减少症</obo:OAE_0001849>
+        <obo:OAE_0001849>血小板减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001453 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001453">
+        <obo:OAE_0001849>心率不齐</obo:OAE_0001849>
+        <obo:OAE_0001849>心率不规则</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001461 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001461">
+        <obo:OAE_0001849>牙痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001463 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001463">
+        <obo:OAE_0001849>肝功能异常</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功异常</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功能不正常</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功能恶化</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功损害</obo:OAE_0001849>
+        <obo:OAE_0001849>肝功能改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001467 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001467">
+        <obo:OAE_0001849>转氨酶增高</obo:OAE_0001849>
+        <obo:OAE_0001849>氨基转移酶增高</obo:OAE_0001849>
+        <obo:OAE_0001849>转氨酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>氨基转移酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清转氨酶升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血氨基转移酶增高</obo:OAE_0001849>
+        <obo:OAE_0001849>血转氨酶升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001489 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001489">
+        <obo:OAE_0001849>尿潴留</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001493 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001493">
+        <obo:OAE_0001849>少尿症</obo:OAE_0001849>
+        <obo:OAE_0001849>少尿</obo:OAE_0001849>
+        <obo:OAE_0001849>肾血流锐减后尿量减少</obo:OAE_0001849>
+        <obo:OAE_0001849>尿量减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001499 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001499">
+        <obo:OAE_0001849>鞘炎</obo:OAE_0001849>
+        <obo:OAE_0001849>阴道炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001509 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001509">
+        <obo:OAE_0001849>视力模糊</obo:OAE_0001849>
+        <obo:OAE_0001849>视觉模糊</obo:OAE_0001849>
+        <obo:OAE_0001849>视物模糊</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001510 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001510">
+        <obo:OAE_0001849>视力下降</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001515 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001515">
+        <obo:OAE_0001849>体重增加（一般为一过性）</obo:OAE_0001849>
+        <obo:OAE_0001849>体重增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001520 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001520">
+        <obo:OAE_0001849>“黄视”（中毒症状）</obo:OAE_0001849>
+        <obo:OAE_0001849>黄视症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001529 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001529">
+        <obo:OAE_0001849>骨质疏松</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001538 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001538">
+        <obo:OAE_0001849>室颤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001539 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001539">
+        <obo:OAE_0001849>Ⅰ度房室阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>Ⅰ度房室传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001554 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001554">
+        <obo:OAE_0001849>焦躁</obo:OAE_0001849>
+        <obo:OAE_0001849>不安</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001556 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001556">
+        <obo:OAE_0001849>易激怒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001560 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001560">
+        <obo:OAE_0001849>倦怠</obo:OAE_0001849>
+        <obo:OAE_0001849>精神差</obo:OAE_0001849>
+        <obo:OAE_0001849>倦怠不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001571 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001571">
+        <obo:OAE_0001849>Ⅱ度房室传导阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>二度房室传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001576 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001576">
+        <obo:OAE_0001849>完全房室传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001578 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001578">
+        <obo:OAE_0001849>血钾浓度增加（高血钾）</obo:OAE_0001849>
+        <obo:OAE_0001849>钾升高</obo:OAE_0001849>
+        <obo:OAE_0001849>高血钾</obo:OAE_0001849>
+        <obo:OAE_0001849>血钾浓度增加</obo:OAE_0001849>
+        <obo:OAE_0001849>高钾血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001580 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001580">
+        <obo:OAE_0001849>高钠血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001589 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001589">
+        <obo:OAE_0001849>BUN异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001592 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001592">
+        <obo:OAE_0001849>血液总胆固醇下降</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001597 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001597">
+        <obo:OAE_0001849>低密度脂蛋白升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001659 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001659">
+        <obo:OAE_0001849>血清总蛋白减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001665 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001665">
+        <obo:OAE_0001849>红细胞异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001732 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001732">
+        <obo:OAE_0001849>血小板数的升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001742 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001742">
+        <obo:OAE_0001849>室性期前收缩</obo:OAE_0001849>
+        <obo:OAE_0001849>室性早搏</obo:OAE_0001849>
+        <obo:OAE_0001849>心室异位搏动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001763 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001763">
+        <obo:OAE_0001849>脑血栓形成</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001790 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001790">
+        <obo:OAE_0001849>心血管意外</obo:OAE_0001849>
+        <obo:OAE_0001849>中风</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001797 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001797">
+        <obo:OAE_0001849>精神症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001845 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001845">
+        <obo:OAE_0001849>胃刺激</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001847 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001847">
+        <obo:OAE_0001849>甲状腺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001848 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001848">
+        <obo:OAE_0001849>糖尿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001852 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001852">
+        <obo:OAE_0001849>麻木感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001853 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001853">
+        <obo:OAE_0001849>间质性肺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001855 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001855">
+        <obo:OAE_0001849>皮肤坏死</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001856 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001856">
+        <obo:OAE_0001849>红斑性狼疮综合征</obo:OAE_0001849>
+        <obo:OAE_0001849>红斑狼疮样反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001857 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001857">
+        <obo:OAE_0001849>尿急</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001858 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001858">
+        <obo:OAE_0001849>心前区疼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001859 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001859">
+        <obo:OAE_0001849>出汗障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001860 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001860">
+        <obo:OAE_0001849>足踝部水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>踝部水肿</obo:OAE_0001849>
+        <obo:OAE_0001849>踝部浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>踝肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001861 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001861">
+        <obo:OAE_0001849>肾功能障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>肾功能不全</obo:OAE_0001849>
+        <obo:OAE_0001849>肾功能减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001862 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001862">
+        <obo:OAE_0001849>泪溢</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001863 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001863">
+        <obo:OAE_0001849>溶血性贫血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001864 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001864">
+        <obo:OAE_0001849>梦呓</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001865 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001865">
+        <obo:OAE_0001849>胆石症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001866 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001866">
+        <obo:OAE_0001849>睑下垂</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001874 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001874">
+        <obo:OAE_0001849>癫痫大发作</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001875 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001875">
+        <obo:OAE_0001849>单纯性红斑</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001876 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001876">
+        <obo:OAE_0001849>骨盆痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001877 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001877">
+        <obo:OAE_0001849>期外收缩</obo:OAE_0001849>
+        <obo:OAE_0001849>期前收缩</obo:OAE_0001849>
+        <obo:OAE_0001849>早博</obo:OAE_0001849>
+        <obo:OAE_0001849>早搏</obo:OAE_0001849>
+        <obo:OAE_0001849>心脏期前收缩</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001880 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001880">
+        <obo:OAE_0001849>胃灼热</obo:OAE_0001849>
+        <obo:OAE_0001849>硝酸盐诱导的括约肌松弛引起的心口灼热</obo:OAE_0001849>
+        <obo:OAE_0001849>烧心感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001881 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001881">
+        <obo:OAE_0001849>扁桃体炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001882 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001882">
+        <obo:OAE_0001849>非胰岛素依赖型糖尿病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001884 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001884">
+        <obo:OAE_0001849>反射消失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001885 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001885">
+        <obo:OAE_0001849>乳腺增大</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001886 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001886">
+        <obo:OAE_0001849>色素层炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001887 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001887">
+        <obo:OAE_0001849>性功能障碍</obo:OAE_0001849>
+        <obo:OAE_0001849>性功能降低</obo:OAE_0001849>
+        <obo:OAE_0001849>性功能减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001888 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001888">
+        <obo:OAE_0001849>记忆力减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001889 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001889">
+        <obo:OAE_0001849>恐惧症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001890 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001890">
+        <obo:OAE_0001849>淋巴结肿大</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001891 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001891">
+        <obo:OAE_0001849>扑翼样震颤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001892 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001892">
+        <obo:OAE_0001849>味觉颠倒</obo:OAE_0001849>
+        <obo:OAE_0001849>味觉紊乱</obo:OAE_0001849>
+        <obo:OAE_0001849>味觉变化</obo:OAE_0001849>
+        <obo:OAE_0001849>味觉错倒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001893 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001893">
+        <obo:OAE_0001849>大脑损害</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001896 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001896">
+        <obo:OAE_0001849>溢乳</obo:OAE_0001849>
+        <obo:OAE_0001849>非产褥期泌乳</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001897 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001897">
+        <obo:OAE_0001849>畏食</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001898 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001898">
+        <obo:OAE_0001849>收缩期喷射性杂音</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001899 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001899">
+        <obo:OAE_0001849>性欲降低</obo:OAE_0001849>
+        <obo:OAE_0001849>性欲减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001900 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001900">
+        <obo:OAE_0001849>偏执</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001901 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001901">
+        <obo:OAE_0001849>夜游症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001903 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001903">
+        <obo:OAE_0001849>角膜中基底层下1/3有黄棕色色素沉着</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001904 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001904">
+        <obo:OAE_0001849>皮肤石板蓝样色素沉着</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001905 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001905">
+        <obo:OAE_0001849>头臂综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001906 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001906">
+        <obo:OAE_0001849>过敏性鼻炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001907 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001907">
+        <obo:OAE_0001849>心室异位搏动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001908 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001908">
+        <obo:OAE_0001849>Sjogren综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001909 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001909">
+        <obo:OAE_0001849>夜尿症</obo:OAE_0001849>
+        <obo:OAE_0001849>夜尿增多</obo:OAE_0001849>
+        <obo:OAE_0001849>夜尿</obo:OAE_0001849>
+        <obo:OAE_0001849>夜尿多</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001910 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001910">
+        <obo:OAE_0001849>盗汗</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001911 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001911">
+        <obo:OAE_0001849>食欲增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001912 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001912">
+        <obo:OAE_0001849>血管扩张性头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001913 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001913">
+        <obo:OAE_0001849>束枝传导阻滞</obo:OAE_0001849>
+        <obo:OAE_0001849>束支传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001914 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001914">
+        <obo:OAE_0001849>不稳定性糖尿病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001915 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001915">
+        <obo:OAE_0001849>肌腱断裂</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001916 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001916">
+        <obo:OAE_0001849>腱鞘炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001917 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001917">
+        <obo:OAE_0001849>稀便</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001918 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001918">
+        <obo:OAE_0001849>膀胱炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001919 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001919">
+        <obo:OAE_0001849>嗳气</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001920 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001920">
+        <obo:OAE_0001849>语言不清</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001921 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001921">
+        <obo:OAE_0001849>腿痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001922 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001922">
+        <obo:OAE_0001849>胃痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001923 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001923">
+        <obo:OAE_0001849>传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001924 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001924">
+        <obo:OAE_0001849>光敏性皮炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001925 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001925">
+        <obo:OAE_0001849>臀痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001926 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001926">
+        <obo:OAE_0001849>咽部不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001927 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001927">
+        <obo:OAE_0001849>间质性肾炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001928 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001928">
+        <obo:OAE_0001849>声嘶</obo:OAE_0001849>
+        <obo:OAE_0001849>声音嘶哑</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001929 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001929">
+        <obo:OAE_0001849>光敏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001930 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001930">
+        <obo:OAE_0001849>凡科尼综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001931 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001931">
+        <obo:OAE_0001849>角膜结膜炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001932 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001932">
+        <obo:OAE_0001849>肝功能不全</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001933 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001933">
+        <obo:OAE_0001849>血氧过少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001934 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001934">
+        <obo:OAE_0001849>刺激性皮炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001935 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001935">
+        <obo:OAE_0001849>指压性水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001936 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001936">
+        <obo:OAE_0001849>急性支气管炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001937 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001937">
+        <obo:OAE_0001849>肾结石</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001938 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001938">
+        <obo:OAE_0001849>意识模糊</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001939 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001939">
+        <obo:OAE_0001849>反射性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001940 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001940">
+        <obo:OAE_0001849>关节扭伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001941 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001941">
+        <obo:OAE_0001849>上髁炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001943 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001943">
+        <obo:OAE_0001849>室性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001944 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001944">
+        <obo:OAE_0001849>肉芽肿性肝炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001945 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001945">
+        <obo:OAE_0001849>味觉减弱</obo:OAE_0001849>
+        <obo:OAE_0001849>味觉迟钝</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001946 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001946">
+        <obo:OAE_0001849>烦躁不安</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001947 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001947">
+        <obo:OAE_0001849>梦幻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001948 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001948">
+        <obo:OAE_0001849>足痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001949 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001949">
+        <obo:OAE_0001849>臂痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001950 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001950">
+        <obo:OAE_0001849>髋痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001951 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001951">
+        <obo:OAE_0001849>肢体伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001952 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001952">
+        <obo:OAE_0001849>风湿性多发性肌痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001953 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001953">
+        <obo:OAE_0001849>纤维肌痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001954 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001954">
+        <obo:OAE_0001849>肝性脑病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001955 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001955">
+        <obo:OAE_0001849>舞蹈症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001956 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001956">
+        <obo:OAE_0001849>梦魇</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001957 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001957">
+        <obo:OAE_0001849>人格解体</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001958 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001958">
+        <obo:OAE_0001849>淡漠</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001959 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001959">
+        <obo:OAE_0001849>嗅觉到错</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001960 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001960">
+        <obo:OAE_0001849>眼干燥</obo:OAE_0001849>
+        <obo:OAE_0001849>眼干燥症</obo:OAE_0001849>
+        <obo:OAE_0001849>眼干</obo:OAE_0001849>
+        <obo:OAE_0001849>干眼症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001961 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001961">
+        <obo:OAE_0001849>软骨病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001962 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001962">
+        <obo:OAE_0001849>畸胎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001964 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001964">
+        <obo:OAE_0001849>腮腺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001965 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001965">
+        <obo:OAE_0001849>舌炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001966 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001966">
+        <obo:OAE_0001849>生殖器水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001967 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001967">
+        <obo:OAE_0001849>缺乏性高潮</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001968 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001968">
+        <obo:OAE_0001849>镇静</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001969 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001969">
+        <obo:OAE_0001849>窦性心动过缓</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001970 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001970">
+        <obo:OAE_0001849>心输出量下降</obo:OAE_0001849>
+        <obo:OAE_0001849>心排血量减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001971 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001971">
+        <obo:OAE_0001849>脂肪泻</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001972 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001972">
+        <obo:OAE_0001849>吸收不良综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001973 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001973">
+        <obo:OAE_0001849>涎腺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001974 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001974">
+        <obo:OAE_0001849>帕金森氏症（停药后可逆转）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001975 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001975">
+        <obo:OAE_0001849>尿结石</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001976 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001976">
+        <obo:OAE_0001849>窦房阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001977 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001977">
+        <obo:OAE_0001849>甲状腺机能亢进</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001978 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001978">
+        <obo:OAE_0001849>不能静坐</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001979 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001979">
+        <obo:OAE_0001849>视网膜病</obo:OAE_0001849>
+        <obo:OAE_0001849>视网膜病变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001980 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001980">
+        <obo:OAE_0001849>窦性停博</obo:OAE_0001849>
+        <obo:OAE_0001849>窦性停搏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001981 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001981">
+        <obo:OAE_0001849>ST段下降</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001982 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001982">
+        <obo:OAE_0001849>T波倒置</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001983 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001983">
+        <obo:OAE_0001849>体温上升</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001984 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001984">
+        <obo:OAE_0001849>阴茎持续勃起</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001987 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001987">
+        <obo:OAE_0001849>肌肉疲劳</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001988 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001988">
+        <obo:OAE_0001849>反胃</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001990 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001990">
+        <obo:OAE_0001849>单纯性疱疹</obo:OAE_0001849>
+        <obo:OAE_0001849>单纯疱疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001991 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001991">
+        <obo:OAE_0001849>麻疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001992 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001992">
+        <obo:OAE_0001849>高胆固醇血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001993 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001993">
+        <obo:OAE_0001849>中毒性表皮融节坏死</obo:OAE_0001849>
+        <obo:OAE_0001849>毒性表皮坏死松懈</obo:OAE_0001849>
+        <obo:OAE_0001849>中毒性表皮坏死松解症</obo:OAE_0001849>
+        <obo:OAE_0001849>中毒性表皮坏死溶解</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001994 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001994">
+        <obo:OAE_0001849>节性心律不齐</obo:OAE_0001849>
+        <obo:OAE_0001849>房室交界性心律</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001995 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001995">
+        <obo:OAE_0001849>神志丧失</obo:OAE_0001849>
+        <obo:OAE_0001849>意识丧失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001996 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001996">
+        <obo:OAE_0001849>天疱疮</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001997 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001997">
+        <obo:OAE_0001849>甲癣</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001998 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001998">
+        <obo:OAE_0001849>瞳孔缩小</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0001999 -->
+
+    <owl:Class rdf:about="&obo;OAE_0001999">
+        <obo:OAE_0001849>视神经萎缩</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002000 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002000">
+        <obo:OAE_0001849>蛋白尿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002001 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002001">
+        <obo:OAE_0001849>遗尿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002002 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002002">
+        <obo:OAE_0001849>齿龈增生</obo:OAE_0001849>
+        <obo:OAE_0001849>牙龈肥厚</obo:OAE_0001849>
+        <obo:OAE_0001849>牙龈增生</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002003 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002003">
+        <obo:OAE_0001849>接触性皮炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002004 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002004">
+        <obo:OAE_0001849>坏死性血管炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002005 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002005">
+        <obo:OAE_0001849>腕管综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002006 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002006">
+        <obo:OAE_0001849>红斑性肢痛病</obo:OAE_0001849>
+        <obo:OAE_0001849>红斑性肢痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002007 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002007">
+        <obo:OAE_0001849>雷诺综合症</obo:OAE_0001849>
+        <obo:OAE_0001849>雷诺现象</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002008 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002008">
+        <obo:OAE_0001849>椎体外系综合征</obo:OAE_0001849>
+        <obo:OAE_0001849>椎体束外综合征</obo:OAE_0001849>
+        <obo:OAE_0001849>锥体外系综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002009 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002009">
+        <obo:OAE_0001849>钠潴留</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002011 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002011">
+        <obo:OAE_0001849>坐骨神经痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002012 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002012">
+        <obo:OAE_0001849>关节僵硬</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002013 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002013">
+        <obo:OAE_0001849>乳房充血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002014 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002014">
+        <obo:OAE_0001849>神经紧张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002015 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002015">
+        <obo:OAE_0001849>神经过敏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002016 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002016">
+        <obo:OAE_0001849>骨关节炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002017 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002017">
+        <obo:OAE_0001849>血中高铁血红蛋白的水平增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002018 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002018">
+        <obo:OAE_0001849>偏侧味觉缺失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002019 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002019">
+        <obo:OAE_0001849>皮肤肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002020 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002020">
+        <obo:OAE_0001849>致纤维化性肺泡炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002021 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002021">
+        <obo:OAE_0001849>低氯性碱中毒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002023 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002023">
+        <obo:OAE_0001849>有刺激</obo:OAE_0001849>
+        <obo:OAE_0001849>刺激</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002024 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002024">
+        <obo:OAE_0001849>神经质</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002025 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002025">
+        <obo:OAE_0001849>过激</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002026 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002026">
+        <obo:OAE_0001849>鼻道狭窄</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002027 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002027">
+        <obo:OAE_0001849>窦房传导阻滞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002028 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002028">
+        <obo:OAE_0001849>脉搏不规则</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002029 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002029">
+        <obo:OAE_0001849>发红</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002030 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002030">
+        <obo:OAE_0001849>肌张力不全</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002031 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002031">
+        <obo:OAE_0001849>嗅觉异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002032 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002032">
+        <obo:OAE_0001849>咽扁桃体炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002033 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002033">
+        <obo:OAE_0001849>过敏性肺炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002034 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002034">
+        <obo:OAE_0001849>蹒跚</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002035 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002035">
+        <obo:OAE_0001849>心肌缺氧</obo:OAE_0001849>
+        <obo:OAE_0001849>锥体外系反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002082 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002082">
+        <obo:OAE_0001849>下腹痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002095 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002095">
+        <obo:OAE_0001849>大便失禁</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002098 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002098">
+        <obo:OAE_0001849>舌炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002102 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002102">
+        <obo:OAE_0001849>过敏性皮疹</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002103 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002103">
+        <obo:OAE_0001849>红皮病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002104 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002104">
+        <obo:OAE_0001849>真菌性皮炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002105 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002105">
+        <obo:OAE_0001849>腱鞘炎样症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002106 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002106">
+        <obo:OAE_0001849>直立性低血压</obo:OAE_0001849>
+        <obo:OAE_0001849>体位性低血压</obo:OAE_0001849>
+        <obo:OAE_0001849>体位性低血压（剂量依赖性）</obo:OAE_0001849>
+        <obo:OAE_0001849>直立位低血压</obo:OAE_0001849>
+        <obo:OAE_0001849>多形性皮疹</obo:OAE_0001849>
+        <obo:OAE_0001849>与剂量有关的体位性低血压</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002107 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002107">
+        <obo:OAE_0001849>“色视”（如黄视、绿视）</obo:OAE_0001849>
+        <obo:OAE_0001849>“色视”</obo:OAE_0001849>
+        <obo:OAE_0001849>“色视”（中毒症状如黄视等）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002108 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002108">
+        <obo:OAE_0001849>致癌</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002111 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002111">
+        <obo:OAE_0001849>脂肪浸润</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002112 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002112">
+        <obo:OAE_0001849>上腹部不适</obo:OAE_0001849>
+        <obo:OAE_0001849>上腹不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002114 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002114">
+        <obo:OAE_0001849>过敏性肝炎</obo:OAE_0001849>
+        <obo:OAE_0001849>敏性肝炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002115 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002115">
+        <obo:OAE_0001849>偏执性焦虑</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002117 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002117">
+        <obo:OAE_0001849>青光眼</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002118 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002118">
+        <obo:OAE_0001849>过敏反应综合征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002119 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002119">
+        <obo:OAE_0001849>季节性变态反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002121 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002121">
+        <obo:OAE_0001849>皮肤发红</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002124 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002124">
+        <obo:OAE_0001849>严重低血压导致心绞痛症状加重现象</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002125 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002125">
+        <obo:OAE_0001849>闪耀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002126 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002126">
+        <obo:OAE_0001849>目眩</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002127 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002127">
+        <obo:OAE_0001849>室性心律</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002128 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002128">
+        <obo:OAE_0001849>锥体外体征</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002129 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002129">
+        <obo:OAE_0001849>听觉障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002130 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002130">
+        <obo:OAE_0001849>尿液呈黄色</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002132 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002132">
+        <obo:OAE_0001849>滑膜炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002135 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002135">
+        <obo:OAE_0001849>大便次数增多</obo:OAE_0001849>
+        <obo:OAE_0001849>大便次数增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002136 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002136">
+        <obo:OAE_0001849>症状性低血压</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002137 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002137">
+        <obo:OAE_0001849>非特异性胃肠功能紊乱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002138 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002138">
+        <obo:OAE_0001849>骨质异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002139 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002139">
+        <obo:OAE_0001849>心跳快而弱</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002141 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002141">
+        <obo:OAE_0001849>胆石增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002142 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002142">
+        <obo:OAE_0001849>肌肉功能失调</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002143 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002143">
+        <obo:OAE_0001849>意外跌倒</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002144 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002144">
+        <obo:OAE_0001849>意外损伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002145 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002145">
+        <obo:OAE_0001849>异常射精</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002146 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002146">
+        <obo:OAE_0001849>头胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002148 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002148">
+        <obo:OAE_0001849>站起时头晕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002149 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002149">
+        <obo:OAE_0001849>味觉改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002152 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002152">
+        <obo:OAE_0001849>手臂沉重感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002153 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002153">
+        <obo:OAE_0001849>乳房肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002154 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002154">
+        <obo:OAE_0001849>胃肠痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002155 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002155">
+        <obo:OAE_0001849>心脏不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002156 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002156">
+        <obo:OAE_0001849>皮肤血管异位</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002157 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002157">
+        <obo:OAE_0001849>关节不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002158 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002158">
+        <obo:OAE_0001849>眼部不适</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002160 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002160">
+        <obo:OAE_0001849>类天疱疮样损伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002161 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002161">
+        <obo:OAE_0001849>脉搏频率变化</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002162 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002162">
+        <obo:OAE_0001849>抑制心肌收缩力</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002163 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002163">
+        <obo:OAE_0001849>心房传导速度减慢</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002164 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002164">
+        <obo:OAE_0001849>下肢痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002165 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002165">
+        <obo:OAE_0001849>心电图出现PR间期延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002166 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002166">
+        <obo:OAE_0001849>QRS波增宽</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002167 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002167">
+        <obo:OAE_0001849>下肢浮肿</obo:OAE_0001849>
+        <obo:OAE_0001849>下肢水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002168 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002168">
+        <obo:OAE_0001849>脉搏加快</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002169 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002169">
+        <obo:OAE_0001849>口苦</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002170 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002170">
+        <obo:OAE_0001849>皮肤刺激反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002171 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002171">
+        <obo:OAE_0001849>玻璃体悬浮物</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002172 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002172">
+        <obo:OAE_0001849>多梦</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002173 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002173">
+        <obo:OAE_0001849>腹部痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002174 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002174">
+        <obo:OAE_0001849>冠状动脉收缩</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002175 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002175">
+        <obo:OAE_0001849>因血管扩张引起的下肢水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002177 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002177">
+        <obo:OAE_0001849>小支气管腔闭塞</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002179 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002179">
+        <obo:OAE_0001849>交叉过敏反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002180 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002180">
+        <obo:OAE_0001849>深静脉血栓静脉炎</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002181 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002181">
+        <obo:OAE_0001849>血液学改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002182 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002182">
+        <obo:OAE_0001849>抑制心脏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002184 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002184">
+        <obo:OAE_0001849>舌麻木</obo:OAE_0001849>
+        <obo:OAE_0001849>舌部麻木</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002185 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002185">
+        <obo:OAE_0001849>肢体麻木</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002186 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002186">
+        <obo:OAE_0001849>唇麻木</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002187 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002187">
+        <obo:OAE_0001849>反射性脉率增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002188 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002188">
+        <obo:OAE_0001849>消化道刺激</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002191 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002191">
+        <obo:OAE_0001849>漏跳</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002195 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002195">
+        <obo:OAE_0001849>外周血管阻力升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002196 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002196">
+        <obo:OAE_0001849>静脉供血不足</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002197 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002197">
+        <obo:OAE_0001849>血肌酸增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002198 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002198">
+        <obo:OAE_0001849>非蛋白氮增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002200 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002200">
+        <obo:OAE_0001849>肝功能升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002201 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002201">
+        <obo:OAE_0001849>膝痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002202 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002202">
+        <obo:OAE_0001849>性欲丧失</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002203 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002203">
+        <obo:OAE_0001849>过度镇静</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002204 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002204">
+        <obo:OAE_0001849>手指震颤</obo:OAE_0001849>
+        <obo:OAE_0001849>手指强硬颤动</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002205 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002205">
+        <obo:OAE_0001849>腿痉挛</obo:OAE_0001849>
+        <obo:OAE_0001849>腿部抽筋</obo:OAE_0001849>
+        <obo:OAE_0001849>腿部痉挛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002206 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002206">
+        <obo:OAE_0001849>失眠</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002207 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002207">
+        <obo:OAE_0001849>清晨失眠</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002208 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002208">
+        <obo:OAE_0001849>骨髓肉芽肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002209 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002209">
+        <obo:OAE_0001849>胆汁郁积性肝损伤</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002210 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002210">
+        <obo:OAE_0001849>心音遥远</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002211 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002211">
+        <obo:OAE_0001849>皮肤粉红色</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002213 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002213">
+        <obo:OAE_0001849>骨髓发育不全</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002214 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002214">
+        <obo:OAE_0001849>出凝血功能障碍</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002217 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002217">
+        <obo:OAE_0001849>呼吸道症状</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002218 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002218">
+        <obo:OAE_0001849>皮肤湿冷</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤冷湿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002219 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002219">
+        <obo:OAE_0001849>视调解异常</obo:OAE_0001849>
+        <obo:OAE_0001849>视觉调节失常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002220 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002220">
+        <obo:OAE_0001849>皮肤变态反应</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤过敏反应（如红斑）</obo:OAE_0001849>
+        <obo:OAE_0001849>皮肤过敏反应</obo:OAE_0001849>
+        <obo:OAE_0001849>过敏性皮肤反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002221 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002221">
+        <obo:OAE_0001849>头重</obo:OAE_0001849>
+        <obo:OAE_0001849>头重感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002223 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002223">
+        <obo:OAE_0001849>视网膜脱离</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002224 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002224">
+        <obo:OAE_0001849>手臂疼痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002225 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002225">
+        <obo:OAE_0001849>外周感觉异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002226 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002226">
+        <obo:OAE_0001849>声门肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002227 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002227">
+        <obo:OAE_0001849>QRS时间延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002228 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002228">
+        <obo:OAE_0001849>出血时间延长</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002229 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002229">
+        <obo:OAE_0001849>急性全身性浓疱病</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002230 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002230">
+        <obo:OAE_0001849>上下肢红肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002232 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002232">
+        <obo:OAE_0001849>空腹血糖升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002233 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002233">
+        <obo:OAE_0001849>胃酸分泌增多</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002234 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002234">
+        <obo:OAE_0001849>扭转性室性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002235 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002235">
+        <obo:OAE_0001849>近端肌无力</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002236 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002236">
+        <obo:OAE_0001849>皮肤血管扩张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002237 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002237">
+        <obo:OAE_0001849>口腔粘膜发麻感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002238 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002238">
+        <obo:OAE_0001849>体位性头晕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002239 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002239">
+        <obo:OAE_0001849>反酸</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002240 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002240">
+        <obo:OAE_0001849>颈静脉扩张</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002241 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002241">
+        <obo:OAE_0001849>喉肿胀</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002243 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002243">
+        <obo:OAE_0001849>连续性多行性室性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002244 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002244">
+        <obo:OAE_0001849>间歇性多形性室性心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002245 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002245">
+        <obo:OAE_0001849>加重溃疡</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002246 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002246">
+        <obo:OAE_0001849>心力衰竭加剧</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002247 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002247">
+        <obo:OAE_0001849>心绞痛加重</obo:OAE_0001849>
+        <obo:OAE_0001849>心绞痛症状加重</obo:OAE_0001849>
+        <obo:OAE_0001849>心绞痛症状加重（硝酸盐的矛盾效应）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002248 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002248">
+        <obo:OAE_0001849>肾损害加重</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002250 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002250">
+        <obo:OAE_0001849>持续的恶心</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002251 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002251">
+        <obo:OAE_0001849>Raynaud综合征加重</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002252 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002252">
+        <obo:OAE_0001849>高剂量时胃酸分泌增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002253 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002253">
+        <obo:OAE_0001849>持续的呕吐</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002254 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002254">
+        <obo:OAE_0001849>突发听力减退</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002255 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002255">
+        <obo:OAE_0001849>口唇青紫</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002256 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002256">
+        <obo:OAE_0001849>指甲青紫</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002258 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002258">
+        <obo:OAE_0001849>溶血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002259 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002259">
+        <obo:OAE_0001849>唇血管神经性水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002260 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002260">
+        <obo:OAE_0001849>舌血管神经性水肿</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002261 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002261">
+        <obo:OAE_0001849>幻听</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002262 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002262">
+        <obo:OAE_0001849>眼睛烧灼感</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002263 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002263">
+        <obo:OAE_0001849>肾功能恶化</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002264 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002264">
+        <obo:OAE_0001849>轻度的血液学改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002265 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002265">
+        <obo:OAE_0001849>中度的血液学改变</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002266 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002266">
+        <obo:OAE_0001849>血压的明显降低</obo:OAE_0001849>
+        <obo:OAE_0001849>血压明显降低</obo:OAE_0001849>
+        <obo:OAE_0001849>严重低血压</obo:OAE_0001849>
+        <obo:OAE_0001849>严重的血压降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002267 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002267">
+        <obo:OAE_0001849>血氨基转移酶可逆性升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002268 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002268">
+        <obo:OAE_0001849>轻度胃肠道反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002271 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002271">
+        <obo:OAE_0001849>持续的心动过速</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002272 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002272">
+        <obo:OAE_0001849>轻度头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002273 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002273">
+        <obo:OAE_0001849>一过性低氧血症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002274 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002274">
+        <obo:OAE_0001849>一过性神经质</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002275 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002275">
+        <obo:OAE_0001849>持续的烦躁</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002276 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002276">
+        <obo:OAE_0001849>异常的无力</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002277 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002277">
+        <obo:OAE_0001849>继发性低血压</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002278 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002278">
+        <obo:OAE_0001849>一过性血清转氨酶升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002279 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002279">
+        <obo:OAE_0001849>一过性血尿素氮升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002280 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002280">
+        <obo:OAE_0001849>明显的血肌酸磷酸激酶增高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002281 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002281">
+        <obo:OAE_0001849>严重的横纹肌溶解症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002282 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002282">
+        <obo:OAE_0001849>胃肠道轻微出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002283 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002283">
+        <obo:OAE_0001849>胃肠道隐匿性出血</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002284 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002284">
+        <obo:OAE_0001849>硝酸盐性头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002285 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002285">
+        <obo:OAE_0001849>特别严重的皮肤病变（多形性渗出性红斑）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002286 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002286">
+        <obo:OAE_0001849>高度乏力</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002287 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002287">
+        <obo:OAE_0001849>短暂的恶心</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002288 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002288">
+        <obo:OAE_0001849>门冬氨酸氨基转移酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002289 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002289">
+        <obo:OAE_0001849>丙氨酸氨基转移酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002290 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002290">
+        <obo:OAE_0001849>乳酸脱氢酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002291 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002291">
+        <obo:OAE_0001849>碱性磷酸酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002292 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002292">
+        <obo:OAE_0001849>谷草转氨酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002293 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002293">
+        <obo:OAE_0001849>谷丙转氨酶轻度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002294 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002294">
+        <obo:OAE_0001849>暂时性缺血性中风</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002295 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002295">
+        <obo:OAE_0001849>肝酶显著增加</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002297 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002297">
+        <obo:OAE_0001849>短暂脑缺血发作</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002298 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002298">
+        <obo:OAE_0001849>一过性低血压</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002299 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002299">
+        <obo:OAE_0001849>血压明显下降（尤其对于基础血压增高的患者）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002300 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002300">
+        <obo:OAE_0001849>一过性头晕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002301 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002301">
+        <obo:OAE_0001849>短暂肝功能异常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002303 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002303">
+        <obo:OAE_0001849>血压突然降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002304 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002304">
+        <obo:OAE_0001849>严重高血压</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002305 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002305">
+        <obo:OAE_0001849>严重心律失常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002306 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002306">
+        <obo:OAE_0001849>血清转氨酶有临床显著升高（持续的＞正常值上限3倍）</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002307 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002307">
+        <obo:OAE_0001849>瞬时视觉模糊</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002308 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002308">
+        <obo:OAE_0001849>尿素中度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002310 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002310">
+        <obo:OAE_0001849>血肌酐中度升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002311 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002311">
+        <obo:OAE_0001849>轻度氨基转氨酶升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002312 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002312">
+        <obo:OAE_0001849>严重眩晕</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002314 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002314">
+        <obo:OAE_0001849>血清钾浓度的轻度降低</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002315 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002315">
+        <obo:OAE_0001849>反跳性血压升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002317 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002317">
+        <obo:OAE_0001849>短暂血糖升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002319 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002319">
+        <obo:OAE_0001849>血清转氨酶显著的持续性升高</obo:OAE_0001849>
+        <obo:OAE_0001849>血清氨基转移酶显著和持续性升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002322 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002322">
+        <obo:OAE_0001849>血清转氨酶显著和持续性升高</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002323 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002323">
+        <obo:OAE_0001849>严重心动过缓</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002324 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002324">
+        <obo:OAE_0001849>明显的低血压反应</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002325 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002325">
+        <obo:OAE_0001849>严重皮肤潮红</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002326 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002326">
+        <obo:OAE_0001849>一过性窦性停搏</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002328 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002328">
+        <obo:OAE_0001849>严重头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002329 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002329">
+        <obo:OAE_0001849>持续的头痛</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002330 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002330">
+        <obo:OAE_0001849>促心律失常作用</obo:OAE_0001849>
+        <obo:OAE_0001849>促心律失常</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002332 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002332">
+        <obo:OAE_0001849>胆石增加的趋向</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002333 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002333">
+        <obo:OAE_0001849>暂时性失去意识</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002334 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002334">
+        <obo:OAE_0001849>增加乳癌发生</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002335 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002335">
+        <obo:OAE_0001849>抗胆碱作用</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002337 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002337">
+        <obo:OAE_0001849>中性白细胞减少</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002340 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002340">
+        <obo:OAE_0001849>嗜酸细胞减少症</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002341 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002341">
+        <obo:OAE_0001849>加重消化性溃疡</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002342 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002342">
+        <obo:OAE_0001849>局部组织坏死</obo:OAE_0001849>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0002580 -->
+
+    <owl:Class rdf:about="&obo;OAE_0002580">
+        <obo:OAE_0001849>室性心律失常</obo:OAE_0001849>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

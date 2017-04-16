@@ -1,0 +1,258 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocvdae/ndfrt_import.owl
+
+[Source ontology]
+NDF-RT
+
+[Low level source term URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148627 #ACERTIL(Perindopril Tablets)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000157056 #Adenosine Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164361 #Alfuzosin Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146406 #Amiodarone Hydrochloride Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151535 #Amiodarone Hydrochloride for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151535 #Amiodarone Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164803 #Amiodarone Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177509 #Amlodipine Besylate and Atorvastatin Calcium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148333 #Amlodipine Maleate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148333 #Amlodipine Mesylate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147706 #Amrinone For Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147706 #Amrinone Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000162226 #Aspirin and  Dipyridamole Sustained-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000022178 #Aspirin And Dipyridamole Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148468 #Atorvastatin Calcium Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000160833 #Atorvastatin Calcium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000158045 #Benazepril Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000160678 #Benazepril Hydrochlorideand Hydrochlorothiazide Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000157222 #Bepridil Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000176140 #Betahistine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000176140 #Betahistine Hydrochloride Oral Solution
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000176140 #Betahistine Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000161333 #Candesartan Cilexetil Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145994 #Captopril for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145994 #Captopril Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165544 #Captopril Sustaind-release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165544 #Captopril Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154646 #Cholestyramine Powder
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167127 #Cinnarizine Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167127 #Cinnarizine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165564 #Clonidine Controlled-release Patches
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150634 #Clonidine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165560 #Clonidine Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145994 #Compound Captopril Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000158061 #Compound Isosorbide Mononitrate Sustained-Release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152428 #Compound Lidocaine Cream
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152434 #Compound Lidocaine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165471 #Compound Reserpine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151512 #Cyclandelate Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154447 #Deslanoside Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151458 #Digaoxin Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000172004 #Digoxin Elixirs
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151461 #Digoxin Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000181828 #Dihydroergotoxine Methanesulfonate For Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154678 #Diltiazem Hydrochloride Controlled-Release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154686 #Diltiazem Hydrochloride for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154678 #Diltiazem Hydrochloride SR Micro-pellet
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154678 #Diltiazem Hydrochloride Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154676 #Diltiazem Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150807 #Dipyridamole and Sodium Chloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150807 #Dipyridamole Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146237 #Dipyridamole Sustaind-release Capsule
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150803 #Dipyridamole tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146201 #Disopyramide phosphate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150803 #Dispersible Dipyridamole Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149567 #Dobutamine Hydrochloride for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149567 #Dobutamine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149567 #Dobutamine Hydrochlorideand Glucose Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000153851 #Dopamine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165761 #Doxazosin Mesylate Extended Release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165761 #Doxazosin Mesylate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000157379 #Enalapril Maleate and Hydrochlorothiazide Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146304 #Enalapril Maleate Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165599 #Enalapril Maleate Disperible Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165599 #Enalapril Maleate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165599 #Enalapril Maleateand Folic Acid Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Extended Release Nifedipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164051 #Ezetrol(Ezetimibe Tablets)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165780 #Felodipine Sustaind-release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148116 #Felodipine Sustained-Release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165780 #Felodipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165348 #Fenofibrate Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177375 #Fenofibrate Chewable Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177375 #Fenofibrate Dispersible Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165030 #Fenofibrate Micronized Granules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165348 #Fenofibrate Sustained Release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177375 #Fenofibrate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000160209 #Fluvastatin Sodium Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000163032 #Fluvastatin sodium extended release tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147861 #Guanethidine Sulfate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150794 #Hydralazine Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000160665 #HYZAAR(Losartan Potassiumand Hydrochlorothiazide Tablets)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000160764 #Ibutilide Fumarate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147050 #Indapamide Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165693 #Indapamide Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148533 #Irbesartan Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000161008 #Irbesartan Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000022154 #Irbesartanand Hydrochlorothiazide Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000161559 #Irbesartanand Hydrochlorothiazide tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150482 #Isosorbide  Dinitrate Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146183 #Isosorbide Dinitrate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate and Glucose Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Sodium Chloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Sustaind-release Capsules?£®¢Ò£©
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Sustaind-release Capsules?£®¢Ú£©
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #Isosorbide Mononitrate Sustained Release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000158062 #Isosorbide Mononitrate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #IsosorbideMononitrateSustained-releaseCapsules(¢Û)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000171781 #Lacidipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167238 #Levoamlodipine Maleate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146337 #Lidocaine Hydrochloride Aerosol
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146337 #Lidocaine Hydrochloride and Sodium Chloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146337 #Lidocaine Hydrochloride Gel
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152434 #Lidocaine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146337 #Lidocaine Hydrochloride Mucilage
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148405 #Losanan Potassium Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165915 #Losartan Potassium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #lsosorbide Mononitrate for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148137 #lsosorbide Mononitrate Sustained-release Capsules(¢Ù)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151340 #Mephentermine Sulfate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151102 #Metaraminol Bitartrate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000154544 #Methoxamine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000155668 #Mexiletine Hydrochloride Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147333 #Mexiletine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147333 #Mexiletine Hydrochloride Tabltes
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000021606 #Milrinone Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146416 #Minoxidil Gel
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146416 #Minoxidil Tincture
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000151575 #Minoxidil Topical Solution
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000157226 #Moricizine Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165693 #NATRILIXSR(Indapamide Sustained Release Tablets)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000178145 #Ncardipine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000178145 #Nicardipine Hydrochloride and Glucose Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000178145 #Nicardipine Hydrochloride and Sodium Chloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000156452 #Nicardipine Hydrochloride Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147522 #Nicardipine Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167295 #Nicergoline Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175594 #Nicotinic Acid For Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175594 #Nicotinic Acid Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175594 #Nicotinic Acid Sustained“ªrelease Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000175594 #Nicotinic Acid Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152638 #Nifedipine Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Nifedipine Controlled-release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152638 #Nifedipine Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Nifedipine Sustained-release Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Nifedipine Sustained-release Tablets£®¢Ò£©
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Nifedipine Sustained-release Tablets£®¢Ú£©
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152640 #Nifedipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000156616 #Nimodipine Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147543 #Nimodipine Dispersible Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147543 #Nimodipine for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147543 #Nimodipine Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000156616 #Nimodipine Soft Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000156616 #Nimodipine Sustained Release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147543 #Nimodipine Sustained Release Tablet
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147543 #Nimodipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148422 #Nisoldipine Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148422 #Nisoldipine Soft Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148422 #Nisoldipine Sustained Release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177339 #Nisoldipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167240 #Nitrendipine Adhesive Patch
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167239 #Nitrendipine Soft Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000167238 #Nitrendipine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145909 #Nitroglycerin Aerosol
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149497 #Nitroglycerin Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149481 #Nitroglycerin Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152323 #Noradrenaline Bitartrate Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149007 #Papaverine Hydrochloride and Sodium Chloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149007 #Papaverine Hydrochloride for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149007 #Papaverine Hydzochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149005 #Papaverine Hydzochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146193 #Perenan(Ergoloid Mesylate Sustained Release Capsules)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000152344 #Phenylephrine Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146212 #Phenytoin Sodium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000158033 #Pravastatin Sodium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147152 #Prazosin Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000153669 #Probucol Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000149904 #Procainamide Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147607 #Propafenone Hydrochloride Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000156995 #Propafenone Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164784 #Propaferwne Hydrochloride Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000145891 #Reserpine Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165471 #Reserpine Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148821 #Rosuvastatin Calcium Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164419 #Rosuvastatin Calcium Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150554 #schelium(Ergoloid Mesylates Sustained-Release Tablets)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000171973 #Sildenafil Citrate Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148200 #Simvastatin Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165800 #Simvastatin Dispersible Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165800 #Simvastatin Pills
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165800 #Simvastatin Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000150451 #Sodium Nitroprusside for Injection
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148599 #Telmisartan Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000163641 #Telmisartan Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164915 #Telmisartanand Hydrochlorothiazide Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165736 #Terazosin Hydrochloride Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165732 #Terazosin Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000177769 #Valsartan and Amlodipine Tablets(I)
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000163243 #Verapamil Hydrochloride Sustaind-release Capsules
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000165614 #Verapamil Hydrochloride Tablets
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000164361 #Xatral(Alfuzosin Hydrochloride Sustained Release Tablets)
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000024 #Site of Metabolism [PK]
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000041 #Route of Excretion [PK]
+subClassOf http://purl.obolibrary.org/obo/BFO_0000029 #site
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000142 #Biological Macromolecular Activity [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000163 #
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065 #
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085 #Receptor Interactions [MoA]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009915 #Unknown Cellular or Molecular Interaction [MoA]
+
+[Top level source term URIs and target direct superclass URIs]
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000002 #Chemical Ingredients [Chemical/Ingredient]
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000001 #Pharmaceutical Preparations
+subClassOf http://purl.obolibrary.org/obo/OBI_0000047  #processed material
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000142 #Biological Macromolecular Activity [MoA]
+subClassOf http://purl.obolibrary.org/obo/OAE_0004328 # role of cellular or molecular interaction
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000163 #
+subClassOf http://purl.obolibrary.org/obo/OAE_0004328 # role of cellular or molecular interaction
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000065 #
+subClassOf http://purl.obolibrary.org/obo/OAE_0004328 # role of cellular or molecular interaction
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000085 #Receptor Interactions [MoA]
+subClassOf http://purl.obolibrary.org/obo/OAE_0004328 # role of cellular or molecular interaction
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009915 #Unknown Cellular or Molecular Interaction [MoA]
+subClassOf http://purl.obolibrary.org/obo/OAE_0004328 # role of cellular or molecular interaction
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000003 #Clinical Kinetics [PK]
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000060 #bodily process
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000000004 #Diseases, Manifestations or Physiologic States [Disease/Finding]
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 #Disposition
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000010010 #Dose Forms [Dose Form]
+subClassOf http://purl.obolibrary.org/obo/PATO_0002198  #quality of a substance
+
+http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000009802 #Physiological Effects [PE]
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+
+# http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000020090 #VA Drug Interactions [VA Drug Interaction]
+# http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000178293 #Therapeutic Categories [TC]
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

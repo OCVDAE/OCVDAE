@@ -1,0 +1,40 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ocvdae/BFO_import.owl
+
+[Source ontology]
+BFO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000034 #function
+http://purl.obolibrary.org/obo/BFO_0000016 #disposition
+http://purl.obolibrary.org/obo/BFO_0000019 #quality
+http://purl.obolibrary.org/obo/BFO_0000145 #relational quality
+http://purl.obolibrary.org/obo/BFO_0000023 #role
+http://purl.obolibrary.org/obo/BFO_0000029 #site
+http://purl.obolibrary.org/obo/BFO_0000031 #generically dependent continuant
+http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+http://purl.obolibrary.org/obo/BFO_0000030 #object
+http://purl.obolibrary.org/obo/BFO_0000015 #process
+http://purl.obolibrary.org/obo/BFO_0000038 #one-dimensional temporal region
+http://purl.obolibrary.org/obo/BFO_0000148 #zero-dimensional temporal region
+
+# the following are relations unavailable in current BFO 2. If needed, go get from RO
+# http://purl.obolibrary.org/obo/BFO_0000055 #realizes
+# http://purl.obolibrary.org/obo/BFO_0000082 #located in at all times
+# http://purl.obolibrary.org/obo/BFO_0000086 #has quality at some time
+# http://purl.obolibrary.org/obo/BFO_0000066 #occurs in
+# http://purl.obolibrary.org/obo/BFO_0000108 #exists at
+# http://purl.obolibrary.org/obo/BFO_0000161 #has role at all times
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Branch extractions from source term URIs and target direct superclass URIs]
+
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
